@@ -1,0 +1,22 @@
+{
+  "webcredentials": {
+    "apps": [
+      "XU6YLGFMYG.com.intrivo.dev",
+      "XU6YLGFMYG.com.intrivo.qa",
+      "XU6YLGFMYG.com.intrivo.live"
+    ]
+  },
+  "applinks": {
+    "apps": [
+      "XU6YLGFMYG.com.intrivo.live"
+    ],
+    "details": [
+      {
+        "appID": "XU6YLGFMYG.com.intrivo.live",
+        "paths": [
+          "/member/*"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "ongo.fullname" . }}
+  # namespace: app
+  labels:
+    {{- include "ongo.labels" . | nindent 4 }}
+spec:
+  {{- if not .Values.autoscaling.enabled }}
+  replicas: {{ .Values.replicaCount }}
+  {{- end }}
+  selector:
+    matchLabels:
+      {{- include "ongo.selectorLabels" . | nindent 6 }}
+  template:
+    metadata:
+      {{- with .Values.podAnnotations }}
+      annotations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      labels:
+        {{- include "ongo.selectorLabels" . | nindent 8 }}
+    spec:
+      {{- with .Values.imagePullSecrets }}
+      imagePullSecrets:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      serviceAccountName: {{ include "ongo.serviceAccountName" . }}
+      securityContext:
+        {{- toYaml .Values.podSecurityContext | nindent 8 }}
+      containers:
+        - name: {{ include "ongo.fullname" . }}
+          securityContext:
+            {{- toYaml .Values.securityContext | nindent 12 }}
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+            - name: http
+              containerPort: 80
+              protocol: TCP
+          readinessProbe:
+            failureThreshold: 3
+            tcpSocket:
+              port: 80
+            initialDelaySeconds: 20
+            periodSeconds: 20
+            successThreshold: 1
+            timeoutSeconds: 5
+
+          livenessProbe:
+            failureThreshold: 3
+            tcpSocket:
+              port: 80
+            initialDelaySeconds: 20
+            periodSeconds: 20
+            successThreshold: 1
+            timeoutSeconds: 5
+          env:
+{{- with .Values.env }}
+{{ toYaml . | indent 10 }}
+{{- end }}
+{{- with .Values.envCommon }}
+{{ toYaml . | indent 10 }}
+{{- end }}
+          resources:
+            # {{- toYaml .Values.resources | nindent 12 }}
+            requests:
+              cpu: 100m
+              memory: 1000Mi
+      {{- with .Values.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.affinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+        podAntiAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+            - podAffinityTerm:
+                labelSelector:
+                  matchExpressions:
+                    - key: app
+                      operator: In
+                      values:
+                        - ongo
+                topologyKey: kubernetes.io/hostname
+              weight: 100
+      {{- end }}

@@ -1,0 +1,18 @@
+image:
+  tag: dev-latest
+
+testConnection: false
+
+fullnameOverride: ongo-canary
+nameOverride: ongo-canary
+
+host: ongo-dev-canary.intrivo.com
+
+envCommon:
+- name: NODE_ENV
+  value: dev
+
+autoscaling:
+  enabled: true
+  minReplicas: 1
+  maxReplicas: 20

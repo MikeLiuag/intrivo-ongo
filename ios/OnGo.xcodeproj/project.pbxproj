@@ -1,0 +1,1780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0137BC191FD2ED66F3CB2130 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141C6C04808147C3C6DE8D7 /* ExpoModulesProvider.swift */; };
+		0849B78A289AFACC00C606CA /* libPods-common-OnGo Stage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0849B789289AFACC00C606CA /* libPods-common-OnGo Stage.a */; };
+		08867F6A2875097D00D1429D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		08867F6B2875097D00D1429D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		08867F6D2875097D00D1429D /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E651DF72D894DF78F4BCF66 /* noop-file.swift */; };
+		08867F712875097D00D1429D /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		08867F722875097D00D1429D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		08867F732875097D00D1429D /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		08867F742875097D00D1429D /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		08867F752875097D00D1429D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9867D4A95C264749992B3DE8 /* InfoPlist.strings */; };
+		08867F762875097D00D1429D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E591DB291E0F410A9290ECBF /* InfoPlist.strings */; };
+		08867F8528751BB000D1429D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		08867F8628751BB000D1429D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		08867F8828751BB000D1429D /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E651DF72D894DF78F4BCF66 /* noop-file.swift */; };
+		08867F8D28751BB000D1429D /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		08867F8E28751BB000D1429D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		08867F8F28751BB000D1429D /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		08867F9028751BB000D1429D /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		08867F9128751BB000D1429D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9867D4A95C264749992B3DE8 /* InfoPlist.strings */; };
+		08867F9228751BB000D1429D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E591DB291E0F410A9290ECBF /* InfoPlist.strings */; };
+		08D4383428919BC4005BF2FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		08D4383528919BC4005BF2FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		08D4383628919BC4005BF2FE /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E651DF72D894DF78F4BCF66 /* noop-file.swift */; };
+		08D4383728919BC4005BF2FE /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141C6C04808147C3C6DE8D7 /* ExpoModulesProvider.swift */; };
+		08D4383C28919BC4005BF2FE /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		08D4383D28919BC4005BF2FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		08D4383E28919BC4005BF2FE /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		08D4383F28919BC4005BF2FE /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		08D4384028919BC4005BF2FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9867D4A95C264749992B3DE8 /* InfoPlist.strings */; };
+		08D4384128919BC4005BF2FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E591DB291E0F410A9290ECBF /* InfoPlist.strings */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2B8D87382845DD2842A7189D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757DC6E9456AAE28D68CD13F /* ExpoModulesProvider.swift */; };
+		2D1E16045FDE407BAE960EE0 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E651DF72D894DF78F4BCF66 /* noop-file.swift */; };
+		3C23C1A7773741A78105A773 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9867D4A95C264749992B3DE8 /* InfoPlist.strings */; };
+		3DB2DD0D8B29CCC70F3A68B8 /* libPods-common-OnGo Dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 032945D37AB7154C474C9912 /* libPods-common-OnGo Dev.a */; };
+		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		44B12CA828BDAFB40040EB7F /* MobileRTCResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44B12CA328BDAFB30040EB7F /* MobileRTCResources.bundle */; };
+		44B12CA928BDAFB40040EB7F /* MobileRTCResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44B12CA328BDAFB30040EB7F /* MobileRTCResources.bundle */; };
+		44B12CAA28BDAFB40040EB7F /* MobileRTCResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44B12CA328BDAFB30040EB7F /* MobileRTCResources.bundle */; };
+		44B12CAB28BDAFB40040EB7F /* MobileRTCResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44B12CA328BDAFB30040EB7F /* MobileRTCResources.bundle */; };
+		44B12CAD28BDB3100040EB7F /* MobileRTC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B12CA228BDAFB30040EB7F /* MobileRTC.xcframework */; };
+		44B12CAE28BDB3100040EB7F /* MobileRTC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 44B12CA228BDAFB30040EB7F /* MobileRTC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		44B12CB028BDB3130040EB7F /* MobileRTC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B12CA228BDAFB30040EB7F /* MobileRTC.xcframework */; };
+		44B12CB128BDB3130040EB7F /* MobileRTC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 44B12CA228BDAFB30040EB7F /* MobileRTC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		44B12CB328BDB3170040EB7F /* MobileRTC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B12CA228BDAFB30040EB7F /* MobileRTC.xcframework */; };
+		44B12CB428BDB3170040EB7F /* MobileRTC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 44B12CA228BDAFB30040EB7F /* MobileRTC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		44B12CB628BDB3190040EB7F /* MobileRTC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B12CA228BDAFB30040EB7F /* MobileRTC.xcframework */; };
+		44B12CB728BDB3190040EB7F /* MobileRTC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 44B12CA228BDAFB30040EB7F /* MobileRTC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		44B12CC128BDBBE30040EB7F /* RCTZoomMeetingModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B12CC028BDBBE30040EB7F /* RCTZoomMeetingModule.m */; };
+		44B12CC228BDBBE30040EB7F /* RCTZoomMeetingModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B12CC028BDBBE30040EB7F /* RCTZoomMeetingModule.m */; };
+		44B12CC328BDBBE30040EB7F /* RCTZoomMeetingModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B12CC028BDBBE30040EB7F /* RCTZoomMeetingModule.m */; };
+		44B12CC428BDBBE30040EB7F /* RCTZoomMeetingModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B12CC028BDBBE30040EB7F /* RCTZoomMeetingModule.m */; };
+		44B12CC728BDBFDC0040EB7F /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B12CC628BDBFDC0040EB7F /* VideoViewController.m */; };
+		44B12CC828BDBFDC0040EB7F /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B12CC628BDBFDC0040EB7F /* VideoViewController.m */; };
+		44B12CC928BDBFDC0040EB7F /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B12CC628BDBFDC0040EB7F /* VideoViewController.m */; };
+		44B12CCA28BDBFDC0040EB7F /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B12CC628BDBFDC0040EB7F /* VideoViewController.m */; };
+		46DC824ECD57DEC3B87C842A /* libPods-common-OnGo Qa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93628A04743ECB20D674F432 /* libPods-common-OnGo Qa.a */; };
+		790B67E24173DC32E0418727 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710492172339495D63DC581A /* ExpoModulesProvider.swift */; };
+		7D424816292549440055A9D7 /* ZoomEventsIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D424815292549440055A9D7 /* ZoomEventsIOS.swift */; };
+		7D424817292549440055A9D7 /* ZoomEventsIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D424815292549440055A9D7 /* ZoomEventsIOS.swift */; };
+		7D424818292549440055A9D7 /* ZoomEventsIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D424815292549440055A9D7 /* ZoomEventsIOS.swift */; };
+		7D424819292549440055A9D7 /* ZoomEventsIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D424815292549440055A9D7 /* ZoomEventsIOS.swift */; };
+		7D42481B292549DD0055A9D7 /* ZoomEventsBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D42481A292549DD0055A9D7 /* ZoomEventsBridge.m */; };
+		7D42481C292549DD0055A9D7 /* ZoomEventsBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D42481A292549DD0055A9D7 /* ZoomEventsBridge.m */; };
+		7D42481D292549DD0055A9D7 /* ZoomEventsBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D42481A292549DD0055A9D7 /* ZoomEventsBridge.m */; };
+		7D42481E292549DD0055A9D7 /* ZoomEventsBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D42481A292549DD0055A9D7 /* ZoomEventsBridge.m */; };
+		7D42482729257D9F0055A9D7 /* ZoomEventsIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D42482629257D9F0055A9D7 /* ZoomEventsIOS.m */; };
+		7D42482829257D9F0055A9D7 /* ZoomEventsIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D42482629257D9F0055A9D7 /* ZoomEventsIOS.m */; };
+		7D42482929257D9F0055A9D7 /* ZoomEventsIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D42482629257D9F0055A9D7 /* ZoomEventsIOS.m */; };
+		7D42482A29257D9F0055A9D7 /* ZoomEventsIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D42482629257D9F0055A9D7 /* ZoomEventsIOS.m */; };
+		B2141198760717636807463C /* libPods-common-OnGo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B218A249C94C68BD1F716865 /* libPods-common-OnGo.a */; };
+		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		D28F02EFD15E498389BEF303 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E591DB291E0F410A9290ECBF /* InfoPlist.strings */; };
+		E6A947202847A03600C0E10F /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44B12CAF28BDB3100040EB7F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				44B12CAE28BDB3100040EB7F /* MobileRTC.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B12CB228BDB3130040EB7F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				44B12CB128BDB3130040EB7F /* MobileRTC.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B12CB528BDB3170040EB7F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				44B12CB428BDB3170040EB7F /* MobileRTC.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B12CB828BDB3190040EB7F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				44B12CB728BDB3190040EB7F /* MobileRTC.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		032945D37AB7154C474C9912 /* libPods-common-OnGo Dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-common-OnGo Dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0849B789289AFACC00C606CA /* libPods-common-OnGo Stage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-common-OnGo Stage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		087E19EE2877495E00549E87 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		087E19F02877495E00549E87 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		087E19F22877495E00549E87 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		08867F7F2875097D00D1429D /* OnGo Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OnGo Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08867F9928751BB000D1429D /* OnGo Qa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OnGo Qa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D4384828919BC4005BF2FE /* OnGo Stage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OnGo Stage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11BDD2F64759460FB9608BD6 /* Pods-common-OnGo Stage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common-OnGo Stage.release.xcconfig"; path = "Target Support Files/Pods-common-OnGo Stage/Pods-common-OnGo Stage.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* OnGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = OnGo/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = OnGo/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = OnGo/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = OnGo/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OnGo/main.m; sourceTree = "<group>"; };
+		21D40FEAF7672588D0C8FE18 /* Pods-common-OnGo Stage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common-OnGo Stage.debug.xcconfig"; path = "Target Support Files/Pods-common-OnGo Stage/Pods-common-OnGo Stage.debug.xcconfig"; sourceTree = "<group>"; };
+		3E651DF72D894DF78F4BCF66 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "OnGo/noop-file.swift"; sourceTree = "<group>"; };
+		44B12CA228BDAFB30040EB7F /* MobileRTC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MobileRTC.xcframework; sourceTree = "<group>"; };
+		44B12CA328BDAFB30040EB7F /* MobileRTCResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MobileRTCResources.bundle; sourceTree = "<group>"; };
+		44B12CBF28BDBBE30040EB7F /* RCTZoomMeetingModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTZoomMeetingModule.h; path = OnGo/RCTZoomMeetingModule.h; sourceTree = "<group>"; };
+		44B12CC028BDBBE30040EB7F /* RCTZoomMeetingModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTZoomMeetingModule.m; path = OnGo/RCTZoomMeetingModule.m; sourceTree = "<group>"; };
+		44B12CC528BDBFDC0040EB7F /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoViewController.h; path = OnGo/VideoViewController.h; sourceTree = "<group>"; };
+		44B12CC628BDBFDC0040EB7F /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoViewController.m; path = OnGo/VideoViewController.m; sourceTree = "<group>"; };
+		6C2E3173556A471DD304B334 /* Pods-OnGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnGo.debug.xcconfig"; path = "Target Support Files/Pods-OnGo/Pods-OnGo.debug.xcconfig"; sourceTree = "<group>"; };
+		710492172339495D63DC581A /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-common-OnGo/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		757DC6E9456AAE28D68CD13F /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-common-OnGo Dev/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		78EB7BBD885A093EE6E68F3B /* Pods-common-OnGo Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common-OnGo Dev.release.xcconfig"; path = "Target Support Files/Pods-common-OnGo Dev/Pods-common-OnGo Dev.release.xcconfig"; sourceTree = "<group>"; };
+		7A4D352CD337FB3A3BF06240 /* Pods-OnGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnGo.release.xcconfig"; path = "Target Support Files/Pods-OnGo/Pods-OnGo.release.xcconfig"; sourceTree = "<group>"; };
+		7D424815292549440055A9D7 /* ZoomEventsIOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ZoomEventsIOS.swift; path = OnGo/ZoomEventsIOS.swift; sourceTree = "<group>"; };
+		7D42481A292549DD0055A9D7 /* ZoomEventsBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZoomEventsBridge.m; path = OnGo/ZoomEventsBridge.m; sourceTree = "<group>"; };
+		7D4248252925674D0055A9D7 /* OnGo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "OnGo-Bridging-Header.h"; path = "OnGo/OnGo-Bridging-Header.h"; sourceTree = "<group>"; };
+		7D42482629257D9F0055A9D7 /* ZoomEventsIOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZoomEventsIOS.m; path = OnGo/ZoomEventsIOS.m; sourceTree = "<group>"; };
+		7D42482B29257DF00055A9D7 /* ZoomEventsIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZoomEventsIOS.h; path = OnGo/ZoomEventsIOS.h; sourceTree = "<group>"; };
+		878D57C30F00CC39458E83E6 /* Pods-common-OnGo dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common-OnGo dev.debug.xcconfig"; path = "Target Support Files/Pods-common-OnGo dev/Pods-common-OnGo dev.debug.xcconfig"; sourceTree = "<group>"; };
+		8F0564FE7DADA8FD636A10DA /* libPods-common-OnGo Stage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-common-OnGo Stage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93628A04743ECB20D674F432 /* libPods-common-OnGo Qa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-common-OnGo Qa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9867D4A95C264749992B3DE8 /* InfoPlist.strings */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = OnGo/SplashScreen.storyboard; sourceTree = "<group>"; };
+		B218A249C94C68BD1F716865 /* libPods-common-OnGo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-common-OnGo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B311FA34E1A3C86D1CDBF738 /* Pods-common-OnGo Qa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common-OnGo Qa.debug.xcconfig"; path = "Target Support Files/Pods-common-OnGo Qa/Pods-common-OnGo Qa.debug.xcconfig"; sourceTree = "<group>"; };
+		B87B4C7C08ADB75127A55D68 /* Pods-common-OnGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common-OnGo.release.xcconfig"; path = "Target Support Files/Pods-common-OnGo/Pods-common-OnGo.release.xcconfig"; sourceTree = "<group>"; };
+		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
+		CFFEEC05CBCA1CAFD78775A7 /* Pods-common-OnGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common-OnGo.debug.xcconfig"; path = "Target Support Files/Pods-common-OnGo/Pods-common-OnGo.debug.xcconfig"; sourceTree = "<group>"; };
+		D220D716D101256A03B19602 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-common-OnGo Stage/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		E141C6C04808147C3C6DE8D7 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-common-OnGo Qa/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		E591DB291E0F410A9290ECBF /* InfoPlist.strings */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA6F19D3837A3EE3CE3207F7 /* Pods-common-OnGo Qa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common-OnGo Qa.release.xcconfig"; path = "Target Support Files/Pods-common-OnGo Qa/Pods-common-OnGo Qa.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EE9B8C2FCC8A34013FA251CF /* Pods-common-OnGo dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common-OnGo dev.release.xcconfig"; path = "Target Support Files/Pods-common-OnGo dev/Pods-common-OnGo dev.release.xcconfig"; sourceTree = "<group>"; };
+		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-OnGo/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		FCF841DD01D6EB47F5DAA5EF /* Pods-common-OnGo Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common-OnGo Dev.debug.xcconfig"; path = "Target Support Files/Pods-common-OnGo Dev/Pods-common-OnGo Dev.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08867F6E2875097D00D1429D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB2DD0D8B29CCC70F3A68B8 /* libPods-common-OnGo Dev.a in Frameworks */,
+				44B12CAD28BDB3100040EB7F /* MobileRTC.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08867F8A28751BB000D1429D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DC824ECD57DEC3B87C842A /* libPods-common-OnGo Qa.a in Frameworks */,
+				44B12CB328BDB3170040EB7F /* MobileRTC.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D4383828919BC4005BF2FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0849B78A289AFACC00C606CA /* libPods-common-OnGo Stage.a in Frameworks */,
+				44B12CB628BDB3190040EB7F /* MobileRTC.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2141198760717636807463C /* libPods-common-OnGo.a in Frameworks */,
+				44B12CB028BDB3130040EB7F /* MobileRTC.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		087E19EC2877495E00549E87 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				087E19ED2877495E00549E87 /* Prod */,
+				087E19EF2877495E00549E87 /* Qa */,
+				087E19F12877495E00549E87 /* Dev */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		087E19ED2877495E00549E87 /* Prod */ = {
+			isa = PBXGroup;
+			children = (
+				087E19EE2877495E00549E87 /* GoogleService-Info.plist */,
+			);
+			path = Prod;
+			sourceTree = "<group>";
+		};
+		087E19EF2877495E00549E87 /* Qa */ = {
+			isa = PBXGroup;
+			children = (
+				087E19F02877495E00549E87 /* GoogleService-Info.plist */,
+			);
+			path = Qa;
+			sourceTree = "<group>";
+		};
+		087E19F12877495E00549E87 /* Dev */ = {
+			isa = PBXGroup;
+			children = (
+				087E19F22877495E00549E87 /* GoogleService-Info.plist */,
+			);
+			path = Dev;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* OnGo */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F792B24A3F905000567C9 /* Supporting */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				44B12CBF28BDBBE30040EB7F /* RCTZoomMeetingModule.h */,
+				44B12CC028BDBBE30040EB7F /* RCTZoomMeetingModule.m */,
+				44B12CC528BDBFDC0040EB7F /* VideoViewController.h */,
+				44B12CC628BDBFDC0040EB7F /* VideoViewController.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
+				3E651DF72D894DF78F4BCF66 /* noop-file.swift */,
+				7D424815292549440055A9D7 /* ZoomEventsIOS.swift */,
+				7D42481A292549DD0055A9D7 /* ZoomEventsBridge.m */,
+				7D4248252925674D0055A9D7 /* OnGo-Bridging-Header.h */,
+				7D42482B29257DF00055A9D7 /* ZoomEventsIOS.h */,
+			);
+			name = OnGo;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44B12CA228BDAFB30040EB7F /* MobileRTC.xcframework */,
+				44B12CA328BDAFB30040EB7F /* MobileRTCResources.bundle */,
+				0849B789289AFACC00C606CA /* libPods-common-OnGo Stage.a */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				B218A249C94C68BD1F716865 /* libPods-common-OnGo.a */,
+				032945D37AB7154C474C9912 /* libPods-common-OnGo Dev.a */,
+				93628A04743ECB20D674F432 /* libPods-common-OnGo Qa.a */,
+				8F0564FE7DADA8FD636A10DA /* libPods-common-OnGo Stage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7754071B8840DDE9CA53C3D8 /* OnGo Qa */ = {
+			isa = PBXGroup;
+			children = (
+				E141C6C04808147C3C6DE8D7 /* ExpoModulesProvider.swift */,
+			);
+			name = "OnGo Qa";
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				7D42482629257D9F0055A9D7 /* ZoomEventsIOS.m */,
+				087E19EC2877495E00549E87 /* Firebase */,
+				13B07FAE1A68108700A75B9A /* OnGo */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				D65327D7A22EEC0BE12398D9 /* Pods */,
+				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* OnGo.app */,
+				08867F7F2875097D00D1429D /* OnGo Dev.app */,
+				08867F9928751BB000D1429D /* OnGo Qa.app */,
+				08D4384828919BC4005BF2FE /* OnGo Stage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92DBD88DE9BF7D494EA9DA96 /* OnGo */ = {
+			isa = PBXGroup;
+			children = (
+				FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */,
+				710492172339495D63DC581A /* ExpoModulesProvider.swift */,
+			);
+			name = OnGo;
+			sourceTree = "<group>";
+		};
+		9BF9B1859B9B4CB3A1BAE4F8 /* es.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				E591DB291E0F410A9290ECBF /* InfoPlist.strings */,
+			);
+			name = es.lproj;
+			sourceTree = "<group>";
+		};
+		A8897F751C8866A179AE9A91 /* OnGo Dev */ = {
+			isa = PBXGroup;
+			children = (
+				757DC6E9456AAE28D68CD13F /* ExpoModulesProvider.swift */,
+			);
+			name = "OnGo Dev";
+			sourceTree = "<group>";
+		};
+		BB2F792B24A3F905000567C9 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F792C24A3F905000567C9 /* Expo.plist */,
+				ED9BD2E2905E403CA68A80E1 /* en.lproj */,
+				9BF9B1859B9B4CB3A1BAE4F8 /* es.lproj */,
+			);
+			name = Supporting;
+			path = OnGo/Supporting;
+			sourceTree = "<group>";
+		};
+		D65327D7A22EEC0BE12398D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C2E3173556A471DD304B334 /* Pods-OnGo.debug.xcconfig */,
+				7A4D352CD337FB3A3BF06240 /* Pods-OnGo.release.xcconfig */,
+				CFFEEC05CBCA1CAFD78775A7 /* Pods-common-OnGo.debug.xcconfig */,
+				B87B4C7C08ADB75127A55D68 /* Pods-common-OnGo.release.xcconfig */,
+				878D57C30F00CC39458E83E6 /* Pods-common-OnGo dev.debug.xcconfig */,
+				EE9B8C2FCC8A34013FA251CF /* Pods-common-OnGo dev.release.xcconfig */,
+				FCF841DD01D6EB47F5DAA5EF /* Pods-common-OnGo Dev.debug.xcconfig */,
+				78EB7BBD885A093EE6E68F3B /* Pods-common-OnGo Dev.release.xcconfig */,
+				B311FA34E1A3C86D1CDBF738 /* Pods-common-OnGo Qa.debug.xcconfig */,
+				EA6F19D3837A3EE3CE3207F7 /* Pods-common-OnGo Qa.release.xcconfig */,
+				21D40FEAF7672588D0C8FE18 /* Pods-common-OnGo Stage.debug.xcconfig */,
+				11BDD2F64759460FB9608BD6 /* Pods-common-OnGo Stage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				92DBD88DE9BF7D494EA9DA96 /* OnGo */,
+				A8897F751C8866A179AE9A91 /* OnGo Dev */,
+				7754071B8840DDE9CA53C3D8 /* OnGo Qa */,
+				E37830FAF91C8787A8B9EBA3 /* OnGo Stage */,
+			);
+			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
+		E37830FAF91C8787A8B9EBA3 /* OnGo Stage */ = {
+			isa = PBXGroup;
+			children = (
+				D220D716D101256A03B19602 /* ExpoModulesProvider.swift */,
+			);
+			name = "OnGo Stage";
+			sourceTree = "<group>";
+		};
+		ED9BD2E2905E403CA68A80E1 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				9867D4A95C264749992B3DE8 /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08867F662875097D00D1429D /* OnGo Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08867F7C2875097D00D1429D /* Build configuration list for PBXNativeTarget "OnGo Dev" */;
+			buildPhases = (
+				08867F672875097D00D1429D /* [CP] Check Pods Manifest.lock */,
+				08792791287E3A630085348D /* Inject Version */,
+				0879278E287E39630085348D /* Inject Expo Channel */,
+				08867F682875097D00D1429D /* Start Packager */,
+				08867F692875097D00D1429D /* Sources */,
+				08867F6E2875097D00D1429D /* Frameworks */,
+				087E19EA2877470800549E87 /* Setup Firebase Environment GoogleService-Info.plist */,
+				08867F702875097D00D1429D /* Resources */,
+				08867F772875097D00D1429D /* Bundle React Native code and images */,
+				08867F782875097D00D1429D /* [CP] Copy Pods Resources */,
+				44B12CAF28BDB3100040EB7F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OnGo Dev";
+			productName = OnGo;
+			productReference = 08867F7F2875097D00D1429D /* OnGo Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08867F8128751BB000D1429D /* OnGo Qa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08867F9628751BB000D1429D /* Build configuration list for PBXNativeTarget "OnGo Qa" */;
+			buildPhases = (
+				08867F8228751BB000D1429D /* [CP] Check Pods Manifest.lock */,
+				08792792287E3A900085348D /* Inject Version */,
+				0879278F287E397A0085348D /* Inject Expo Channel */,
+				08867F8328751BB000D1429D /* Start Packager */,
+				08867F8428751BB000D1429D /* Sources */,
+				08867F8A28751BB000D1429D /* Frameworks */,
+				087E19EB2877471200549E87 /* Setup Firebase Environment GoogleService-Info.plist */,
+				08867F8C28751BB000D1429D /* Resources */,
+				08867F9328751BB000D1429D /* Bundle React Native code and images */,
+				08867F9428751BB000D1429D /* [CP] Copy Pods Resources */,
+				44B12CB528BDB3170040EB7F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OnGo Qa";
+			productName = OnGo;
+			productReference = 08867F9928751BB000D1429D /* OnGo Qa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08D4382E28919BC4005BF2FE /* OnGo Stage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08D4384528919BC4005BF2FE /* Build configuration list for PBXNativeTarget "OnGo Stage" */;
+			buildPhases = (
+				08D4383128919BC4005BF2FE /* [CP] Check Pods Manifest.lock */,
+				08D4382F28919BC4005BF2FE /* Inject Version */,
+				08D4383028919BC4005BF2FE /* Inject Expo Channel */,
+				08D4383228919BC4005BF2FE /* Start Packager */,
+				08D4383328919BC4005BF2FE /* Sources */,
+				08D4383828919BC4005BF2FE /* Frameworks */,
+				08D4383A28919BC4005BF2FE /* Setup Firebase Environment GoogleService-Info.plist */,
+				08D4383B28919BC4005BF2FE /* Resources */,
+				08D4384228919BC4005BF2FE /* Bundle React Native code and images */,
+				08D4384328919BC4005BF2FE /* [CP] Copy Pods Resources */,
+				44B12CB828BDB3190040EB7F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OnGo Stage";
+			productName = OnGo;
+			productReference = 08D4384828919BC4005BF2FE /* OnGo Stage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13B07F861A680F5B00A75B9A /* OnGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "OnGo" */;
+			buildPhases = (
+				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
+				0879278B287E375B0085348D /* Inject Version */,
+				0879278D287E37FE0085348D /* Inject Expo Channel */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				087E19E92877463B00549E87 /* Setup Firebase Environment GoogleService-Info.plist */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
+				44B12CB228BDB3130040EB7F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnGo;
+			productName = OnGo;
+			productReference = 13B07F961A680F5B00A75B9A /* OnGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					08867F662875097D00D1429D = {
+						DevelopmentTeam = XU6YLGFMYG;
+					};
+					08867F8128751BB000D1429D = {
+						DevelopmentTeam = XU6YLGFMYG;
+					};
+					08D4382E28919BC4005BF2FE = {
+						DevelopmentTeam = XU6YLGFMYG;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = XU6YLGFMYG;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "OnGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* OnGo */,
+				08867F662875097D00D1429D /* OnGo Dev */,
+				08867F8128751BB000D1429D /* OnGo Qa */,
+				08D4382E28919BC4005BF2FE /* OnGo Stage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08867F702875097D00D1429D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08867F712875097D00D1429D /* Expo.plist in Resources */,
+				08867F722875097D00D1429D /* Images.xcassets in Resources */,
+				08867F732875097D00D1429D /* SplashScreen.storyboard in Resources */,
+				44B12CA928BDAFB40040EB7F /* MobileRTCResources.bundle in Resources */,
+				08867F742875097D00D1429D /* BuildFile in Resources */,
+				08867F752875097D00D1429D /* InfoPlist.strings in Resources */,
+				08867F762875097D00D1429D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08867F8C28751BB000D1429D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08867F8D28751BB000D1429D /* Expo.plist in Resources */,
+				08867F8E28751BB000D1429D /* Images.xcassets in Resources */,
+				08867F8F28751BB000D1429D /* SplashScreen.storyboard in Resources */,
+				44B12CAA28BDAFB40040EB7F /* MobileRTCResources.bundle in Resources */,
+				08867F9028751BB000D1429D /* BuildFile in Resources */,
+				08867F9128751BB000D1429D /* InfoPlist.strings in Resources */,
+				08867F9228751BB000D1429D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D4383B28919BC4005BF2FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D4383C28919BC4005BF2FE /* Expo.plist in Resources */,
+				08D4383D28919BC4005BF2FE /* Images.xcassets in Resources */,
+				08D4383E28919BC4005BF2FE /* SplashScreen.storyboard in Resources */,
+				44B12CAB28BDAFB40040EB7F /* MobileRTCResources.bundle in Resources */,
+				08D4383F28919BC4005BF2FE /* BuildFile in Resources */,
+				08D4384028919BC4005BF2FE /* InfoPlist.strings in Resources */,
+				08D4384128919BC4005BF2FE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+				44B12CA828BDAFB40040EB7F /* MobileRTCResources.bundle in Resources */,
+				E6A947202847A03600C0E10F /* BuildFile in Resources */,
+				3C23C1A7773741A78105A773 /* InfoPlist.strings in Resources */,
+				D28F02EFD15E498389BEF303 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n\n# The project root by default is one level up from the ios directory\nexport PROJECT_ROOT=\"$PROJECT_DIR\"/..\n\n`node --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/react-native-xcode.sh'\"`\n";
+		};
+		0879278B287E375B0085348D /* Inject Version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Inject Version";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\necho \"Version: $APP_ENV-$APP_VERSION-$APP_VERSION_CODE\"\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $APP_VERSION\" \"$INFOPLIST_FILE\"\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $APP_VERSION_CODE\" \"$INFOPLIST_FILE\"\n";
+		};
+		0879278D287E37FE0085348D /* Inject Expo Channel */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Inject Expo Channel";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\necho \"$APP_ENV-$APP_VERSION-$APP_VERSION_CODE\"\n/usr/libexec/PlistBuddy -c \"Set :EXUpdatesReleaseChannel $APP_ENV-$APP_VERSION\" \"$EXPOPLIST_FILE\"\n";
+		};
+		0879278E287E39630085348D /* Inject Expo Channel */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Inject Expo Channel";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\necho \"$APP_ENV-$APP_VERSION-$APP_VERSION_CODE\"\nif [[ -z \"${APP_VERSION_CODE}\" ]]\nthen\n  echo \"no APP_VERSION_CODE\"\nelse\n    /usr/libexec/PlistBuddy -c \"Set :EXUpdatesReleaseChannel $APP_ENV-$APP_VERSION\" \"$EXPOPLIST_FILE\"\nfi\n";
+		};
+		0879278F287E397A0085348D /* Inject Expo Channel */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Inject Expo Channel";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\necho \"$APP_ENV-$APP_VERSION-$APP_VERSION_CODE\"\n/usr/libexec/PlistBuddy -c \"Set :EXUpdatesReleaseChannel $APP_ENV-$APP_VERSION\" \"$EXPOPLIST_FILE\"\n";
+		};
+		08792791287E3A630085348D /* Inject Version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Inject Version";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\necho \"Version: $APP_ENV-$APP_VERSION-$APP_VERSION_CODE\"\n\nif [[ -z \"${APP_VERSION}\" ]]; then\n  echo \"no APP_VERSION\"\nelse\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $APP_VERSION\" \"$INFOPLIST_FILE\"\nfi\nif [ \"$USE_BITRISE_VERSION_CODE\" == false ] ; then\n  /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $APP_VERSION_CODE\" \"$INFOPLIST_FILE\"\nfi\n";
+		};
+		08792792287E3A900085348D /* Inject Version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Inject Version";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\necho \"Version: $APP_ENV-$APP_VERSION-$APP_VERSION_CODE\"\n\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $APP_VERSION\" \"$INFOPLIST_FILE\"\nif [ \"$USE_BITRISE_VERSION_CODE\" == false ] ; then\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $APP_VERSION_CODE\" \"$INFOPLIST_FILE\"\nfi\n";
+		};
+		087E19E92877463B00549E87 /* Setup Firebase Environment GoogleService-Info.plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Setup Firebase Environment GoogleService-Info.plist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert i# Name of the resource we're selectively copying\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\n# Get references to dev and prod versions of the GoogleService-Info.plist\n# NOTE: These should only live on the file system and should NOT be part of the target (since we'll be adding them to the target manually)\nGOOGLESERVICE_INFO=${PROJECT_DIR}/Firebase/Prod/${GOOGLESERVICE_INFO_PLIST}\n# Make sure the dev version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO}\"\nif [ ! -f $GOOGLESERVICE_INFO ]\nthen\necho \"No GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\nexit 1\nfi\n# Get a reference to the destination location for the GoogleService-Info.plist\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\n# Copy over the prod GoogleService-Info.plist for Release builds\necho \"Using ${GOOGLESERVICE_INFO}\"\ncp \"${GOOGLESERVICE_INFO}\" \"${PLIST_DESTINATION}\"\n";
+		};
+		087E19EA2877470800549E87 /* Setup Firebase Environment GoogleService-Info.plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Setup Firebase Environment GoogleService-Info.plist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a scr# Type a script or drag a script file from your workspace to insert i# Name of the resource we're selectively copying\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\n# Get references to dev and prod versions of the GoogleService-Info.plist\n# NOTE: These should only live on the file system and should NOT be part of the target (since we'll be adding them to the target manually)\nGOOGLESERVICE_INFO=${PROJECT_DIR}/Firebase/Dev/${GOOGLESERVICE_INFO_PLIST}\n# Make sure the dev version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO}\"\nif [ ! -f $GOOGLESERVICE_INFO ]\nthen\necho \"No GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\nexit 1\nfi\n# Get a reference to the destination location for the GoogleService-Info.plist\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\n# Copy over the prod GoogleService-Info.plist for Release builds\necho \"Using ${GOOGLESERVICE_INFO}\"\ncp \"${GOOGLESERVICE_INFO}\" \"${PLIST_DESTINATION}\"\n";
+		};
+		087E19EB2877471200549E87 /* Setup Firebase Environment GoogleService-Info.plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Setup Firebase Environment GoogleService-Info.plist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert i# Name of the resource we're selectively copying\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\n# Get references to dev and prod versions of the GoogleService-Info.plist\n# NOTE: These should only live on the file system and should NOT be part of the target (since we'll be adding them to the target manually)\nGOOGLESERVICE_INFO=${PROJECT_DIR}/Firebase/Qa/${GOOGLESERVICE_INFO_PLIST}\n# Make sure the dev version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO}\"\nif [ ! -f $GOOGLESERVICE_INFO ]\nthen\necho \"No GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\nexit 1\nfi\n# Get a reference to the destination location for the GoogleService-Info.plist\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\n# Copy over the prod GoogleService-Info.plist for Release builds\necho \"Using ${GOOGLESERVICE_INFO}\"\ncp \"${GOOGLESERVICE_INFO}\" \"${PLIST_DESTINATION}\"\n";
+		};
+		08867F672875097D00D1429D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-common-OnGo Dev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08867F682875097D00D1429D /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > `node --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/.packager.env'\"`\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open `node --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/launchPackager.command'\"` || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		08867F772875097D00D1429D /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n\n# The project root by default is one level up from the ios directory\nexport PROJECT_ROOT=\"$PROJECT_DIR\"/..\n\n`node --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/react-native-xcode.sh'\"`\n";
+		};
+		08867F782875097D00D1429D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-common-OnGo Dev/Pods-common-OnGo Dev-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXUpdates/EXUpdates.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Stripe/Stripe.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Stripe/Stripe3DS2.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/StripeCore/StripeCore.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/StripeFinancialConnections/StripeFinancialConnections.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/StripeUICore/StripeUICore.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-launcher/EXDevLauncher.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-menu/EXDevMenu.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXUpdates.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Stripe.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Stripe3DS2.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/StripeCore.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/StripeFinancialConnections.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/StripeUICore.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevLauncher.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevMenu.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-common-OnGo Dev/Pods-common-OnGo Dev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08867F8228751BB000D1429D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-common-OnGo Qa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08867F8328751BB000D1429D /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > `node --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/.packager.env'\"`\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open `node --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/launchPackager.command'\"` || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		08867F9328751BB000D1429D /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n\n# The project root by default is one level up from the ios directory\nexport PROJECT_ROOT=\"$PROJECT_DIR\"/..\n\n`node --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/react-native-xcode.sh'\"`\n";
+		};
+		08867F9428751BB000D1429D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-common-OnGo Qa/Pods-common-OnGo Qa-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXUpdates/EXUpdates.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Stripe/Stripe.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Stripe/Stripe3DS2.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/StripeCore/StripeCore.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/StripeFinancialConnections/StripeFinancialConnections.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/StripeUICore/StripeUICore.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-launcher/EXDevLauncher.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-menu/EXDevMenu.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXUpdates.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Stripe.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Stripe3DS2.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/StripeCore.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/StripeFinancialConnections.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/StripeUICore.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevLauncher.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevMenu.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-common-OnGo Qa/Pods-common-OnGo Qa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-common-OnGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08D4382F28919BC4005BF2FE /* Inject Version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Inject Version";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\necho \"Version: $APP_ENV-$APP_VERSION-$APP_VERSION_CODE\"\n\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $APP_VERSION\" \"$INFOPLIST_FILE\"\nif [ \"$USE_BITRISE_VERSION_CODE\" == false ] ; then\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $APP_VERSION_CODE\" \"$INFOPLIST_FILE\"\nfi\n";
+		};
+		08D4383028919BC4005BF2FE /* Inject Expo Channel */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Inject Expo Channel";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\necho \"$APP_ENV-$APP_VERSION-$APP_VERSION_CODE\"\n/usr/libexec/PlistBuddy -c \"Set :EXUpdatesReleaseChannel $APP_ENV-$APP_VERSION\" \"$EXPOPLIST_FILE\"\n";
+		};
+		08D4383128919BC4005BF2FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-common-OnGo Stage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08D4383228919BC4005BF2FE /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > `node --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/.packager.env'\"`\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open `node --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/launchPackager.command'\"` || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		08D4383A28919BC4005BF2FE /* Setup Firebase Environment GoogleService-Info.plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Setup Firebase Environment GoogleService-Info.plist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert i# Name of the resource we're selectively copying\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\n# Get references to dev and prod versions of the GoogleService-Info.plist\n# NOTE: These should only live on the file system and should NOT be part of the target (since we'll be adding them to the target manually)\nGOOGLESERVICE_INFO=${PROJECT_DIR}/Firebase/Stage/${GOOGLESERVICE_INFO_PLIST}\n# Make sure the dev version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO}\"\nif [ ! -f $GOOGLESERVICE_INFO ]\nthen\necho \"No GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\nexit 1\nfi\n# Get a reference to the destination location for the GoogleService-Info.plist\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\n# Copy over the prod GoogleService-Info.plist for Release builds\necho \"Using ${GOOGLESERVICE_INFO}\"\ncp \"${GOOGLESERVICE_INFO}\" \"${PLIST_DESTINATION}\"\n";
+		};
+		08D4384228919BC4005BF2FE /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n\n# The project root by default is one level up from the ios directory\nexport PROJECT_ROOT=\"$PROJECT_DIR\"/..\n\n`node --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/react-native-xcode.sh'\"`\n";
+		};
+		08D4384328919BC4005BF2FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-common-OnGo Stage/Pods-common-OnGo Stage-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXUpdates/EXUpdates.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Stripe/Stripe.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Stripe/Stripe3DS2.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/StripeCore/StripeCore.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/StripeFinancialConnections/StripeFinancialConnections.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/StripeUICore/StripeUICore.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-launcher/EXDevLauncher.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-menu/EXDevMenu.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXUpdates.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Stripe.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Stripe3DS2.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/StripeCore.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/StripeFinancialConnections.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/StripeUICore.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevLauncher.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevMenu.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-common-OnGo Stage/Pods-common-OnGo Stage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-common-OnGo/Pods-common-OnGo-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXUpdates/EXUpdates.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Stripe/Stripe.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Stripe/Stripe3DS2.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/StripeCore/StripeCore.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/StripeFinancialConnections/StripeFinancialConnections.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/StripeUICore/StripeUICore.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-launcher/EXDevLauncher.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-menu/EXDevMenu.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXUpdates.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Stripe.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Stripe3DS2.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/StripeCore.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/StripeFinancialConnections.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/StripeUICore.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevLauncher.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevMenu.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-common-OnGo/Pods-common-OnGo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > `node --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/.packager.env'\"`\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open `node --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/launchPackager.command'\"` || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08867F692875097D00D1429D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08867F6A2875097D00D1429D /* AppDelegate.m in Sources */,
+				08867F6B2875097D00D1429D /* main.m in Sources */,
+				7D424817292549440055A9D7 /* ZoomEventsIOS.swift in Sources */,
+				44B12CC828BDBFDC0040EB7F /* VideoViewController.m in Sources */,
+				08867F6D2875097D00D1429D /* noop-file.swift in Sources */,
+				44B12CC228BDBBE30040EB7F /* RCTZoomMeetingModule.m in Sources */,
+				2B8D87382845DD2842A7189D /* ExpoModulesProvider.swift in Sources */,
+				7D42482829257D9F0055A9D7 /* ZoomEventsIOS.m in Sources */,
+				7D42481C292549DD0055A9D7 /* ZoomEventsBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08867F8428751BB000D1429D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08867F8528751BB000D1429D /* AppDelegate.m in Sources */,
+				08867F8628751BB000D1429D /* main.m in Sources */,
+				7D424818292549440055A9D7 /* ZoomEventsIOS.swift in Sources */,
+				44B12CC928BDBFDC0040EB7F /* VideoViewController.m in Sources */,
+				08867F8828751BB000D1429D /* noop-file.swift in Sources */,
+				44B12CC328BDBBE30040EB7F /* RCTZoomMeetingModule.m in Sources */,
+				0137BC191FD2ED66F3CB2130 /* ExpoModulesProvider.swift in Sources */,
+				7D42482929257D9F0055A9D7 /* ZoomEventsIOS.m in Sources */,
+				7D42481D292549DD0055A9D7 /* ZoomEventsBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D4383328919BC4005BF2FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D4383428919BC4005BF2FE /* AppDelegate.m in Sources */,
+				08D4383528919BC4005BF2FE /* main.m in Sources */,
+				7D424819292549440055A9D7 /* ZoomEventsIOS.swift in Sources */,
+				44B12CCA28BDBFDC0040EB7F /* VideoViewController.m in Sources */,
+				08D4383628919BC4005BF2FE /* noop-file.swift in Sources */,
+				44B12CC428BDBBE30040EB7F /* RCTZoomMeetingModule.m in Sources */,
+				08D4383728919BC4005BF2FE /* ExpoModulesProvider.swift in Sources */,
+				7D42482A29257D9F0055A9D7 /* ZoomEventsIOS.m in Sources */,
+				7D42481E292549DD0055A9D7 /* ZoomEventsBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				7D424816292549440055A9D7 /* ZoomEventsIOS.swift in Sources */,
+				44B12CC728BDBFDC0040EB7F /* VideoViewController.m in Sources */,
+				2D1E16045FDE407BAE960EE0 /* noop-file.swift in Sources */,
+				44B12CC128BDBBE30040EB7F /* RCTZoomMeetingModule.m in Sources */,
+				790B67E24173DC32E0418727 /* ExpoModulesProvider.swift in Sources */,
+				7D42482729257D9F0055A9D7 /* ZoomEventsIOS.m in Sources */,
+				7D42481B292549DD0055A9D7 /* ZoomEventsBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		08867F7D2875097D00D1429D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCF841DD01D6EB47F5DAA5EF /* Pods-common-OnGo Dev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CHANNEL_PREFIX = dev;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "OnGo/OnGo Dev.entitlements";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XU6YLGFMYG;
+				DISPLAY_NAME = "On/Go Dev";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				EXPOPLIST_FILE = OnGo/Supporting/Expo.plist;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
+				INFOPLIST_FILE = OnGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "$(APP_VERSION)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intrivo.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OnGo/OnGo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				URL_SCHEME = "ongo-dev";
+				VALIDATE_WORKSPACE = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		08867F7E2875097D00D1429D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78EB7BBD885A093EE6E68F3B /* Pods-common-OnGo Dev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CHANNEL_PREFIX = dev;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "OnGo/OnGo Dev.entitlements";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XU6YLGFMYG;
+				DISPLAY_NAME = "On/Go Dev";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				EXPOPLIST_FILE = OnGo/Supporting/Expo.plist;
+				INFOPLIST_FILE = OnGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "$(APP_VERSION)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intrivo.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OnGo/OnGo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				URL_SCHEME = "ongo-dev";
+				VALIDATE_WORKSPACE = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		08867F9728751BB000D1429D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B311FA34E1A3C86D1CDBF738 /* Pods-common-OnGo Qa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CHANNEL_PREFIX = qa;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "OnGo/OnGo Qa.entitlements";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XU6YLGFMYG;
+				DISPLAY_NAME = "On/Go Qa";
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				EXPOPLIST_FILE = OnGo/Supporting/Expo.plist;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
+				INFOPLIST_FILE = OnGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "$(APP_VERSION)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intrivo.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OnGo/OnGo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				URL_SCHEME = "ongo-qa";
+				VALIDATE_WORKSPACE = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		08867F9828751BB000D1429D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6F19D3837A3EE3CE3207F7 /* Pods-common-OnGo Qa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CHANNEL_PREFIX = qa;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "OnGo/OnGo Qa.entitlements";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XU6YLGFMYG;
+				DISPLAY_NAME = "On/Go Qa";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				EXPOPLIST_FILE = OnGo/Supporting/Expo.plist;
+				INFOPLIST_FILE = OnGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "$(APP_VERSION)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intrivo.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OnGo/OnGo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				URL_SCHEME = "ongo-qa";
+				VALIDATE_WORKSPACE = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		08D4384628919BC4005BF2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D40FEAF7672588D0C8FE18 /* Pods-common-OnGo Stage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CHANNEL_PREFIX = stage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "OnGo/OnGo Stage.entitlements";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XU6YLGFMYG;
+				DISPLAY_NAME = "On/Go Canary";
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				EXPOPLIST_FILE = OnGo/Supporting/Expo.plist;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
+				INFOPLIST_FILE = OnGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "$(APP_VERSION)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intrivo.stage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OnGo/OnGo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				URL_SCHEME = "ongo-stage";
+				VALIDATE_WORKSPACE = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		08D4384728919BC4005BF2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11BDD2F64759460FB9608BD6 /* Pods-common-OnGo Stage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CHANNEL_PREFIX = stage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "OnGo/OnGo Stage.entitlements";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XU6YLGFMYG;
+				DISPLAY_NAME = "On/Go Canary";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				EXPOPLIST_FILE = OnGo/Supporting/Expo.plist;
+				INFOPLIST_FILE = OnGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "$(APP_VERSION)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intrivo.stage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OnGo/OnGo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				URL_SCHEME = "ongo-stage";
+				VALIDATE_WORKSPACE = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFEEC05CBCA1CAFD78775A7 /* Pods-common-OnGo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CHANNEL_PREFIX = prod;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = OnGo/OnGo.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XU6YLGFMYG;
+				DISPLAY_NAME = On/Go;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				EXPOPLIST_FILE = OnGo/Supporting/Expo.plist;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
+				INFOPLIST_FILE = OnGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "$(APP_VERSION)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intrivo.live;
+				PRODUCT_NAME = OnGo;
+				SWIFT_OBJC_BRIDGING_HEADER = "OnGo/OnGo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				URL_SCHEME = ongo;
+				VALIDATE_WORKSPACE = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B87B4C7C08ADB75127A55D68 /* Pods-common-OnGo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CHANNEL_PREFIX = prod;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = OnGo/OnGo.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XU6YLGFMYG;
+				DISPLAY_NAME = On/Go;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				EXPOPLIST_FILE = OnGo/Supporting/Expo.plist;
+				INFOPLIST_FILE = OnGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "$(APP_VERSION)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intrivo.live;
+				PRODUCT_NAME = OnGo;
+				SWIFT_OBJC_BRIDGING_HEADER = "OnGo/OnGo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				URL_SCHEME = ongo;
+				VALIDATE_WORKSPACE = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = OnGo/OnGo.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PROJECT_NAME)-Swift.h";
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = OnGo/OnGo.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PROJECT_NAME)-Swift.h";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08867F7C2875097D00D1429D /* Build configuration list for PBXNativeTarget "OnGo Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08867F7D2875097D00D1429D /* Debug */,
+				08867F7E2875097D00D1429D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08867F9628751BB000D1429D /* Build configuration list for PBXNativeTarget "OnGo Qa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08867F9728751BB000D1429D /* Debug */,
+				08867F9828751BB000D1429D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08D4384528919BC4005BF2FE /* Build configuration list for PBXNativeTarget "OnGo Stage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D4384628919BC4005BF2FE /* Debug */,
+				08D4384728919BC4005BF2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "OnGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "OnGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

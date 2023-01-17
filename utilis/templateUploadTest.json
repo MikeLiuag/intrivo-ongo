@@ -1,0 +1,170 @@
+{
+  "data": {
+    "steps": [
+      {
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "00000000-0000-0000-0000-000000000002",
+        "next_button": {
+          "enabled": "selected",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "00000000-0000-0000-0001-000000000002"
+          }
+        ],
+        "step_name": "Symptoms",
+        "template_arguments": {
+          "key": "symptoms",
+          "subtitle": "Did you have any symptoms at the time of testing?",
+          "answers": {
+            "options": [
+              {
+                "text": "Yes",
+                "value": 1,
+                "key": 0
+              },
+              {
+                "text": "No",
+                "value": 0,
+                "key": 1
+              }
+            ]
+          },
+          "title": "Symptoms"
+        },
+        "template_name": "question_select_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "00000000-0000-0000-0001-000000000002",
+        "next_button": {
+          "enabled": "calendar.checked == true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": {
+          "symptoms": null,
+          "symptoms_first_date": "calendar",
+          "test_image_resp": null
+        },
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "000089eb-b7e4-481e-b612-9a353bce0994"
+          }
+        ],
+        "step_name": "symptoms_start_date",
+        "template_arguments": {
+          "calendar": {
+            "date_range_to": "{{system.today}}",
+            "null_value": "I'm not sure",
+            "type": "date"
+          },
+          "subtitle": "When was test completed?",
+          "title": "Select date",
+          "time_picker": true
+        },
+        "template_name": "monthly_calendar_v1"
+      },
+      {
+        "full_screen": true,
+        "back_button": {
+          "enabled": "false",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "false"
+        },
+        "id": "000089eb-b7e4-481e-b612-9a353bce0994",
+        "next_button": {
+          "enabled": "selected",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Record result"
+            }
+          ],
+          "visibility": "true"
+        },
+        "step_logic": [],
+        "step_name": "Select result",
+        "template_arguments": {
+          "key": "result",
+          "answers": {
+            "options": [
+              {
+                "text": "Negative",
+                "subtitle": "There is only one line next to ‘C’ on the test.",
+                "icon": "-",
+                "icon_color": "#49C37C",
+                "value": 0,
+                "key": 0
+              },
+              {
+                "text": "Positive",
+                "subtitle": "There are two lines on the test, one line next to ‘C’ and a second next to ‘T’.",
+                "icon": "+",
+                "icon_color": "#EB5757",
+                "value": 1,
+                "key": 1
+              },
+              {
+                "text": "Invalid",
+                "subtitle": "There are no visible lines on the test, or the test was not completed in time.",
+                "icon": "!",
+                "icon_color": "#F48034",
+                "value": 2,
+                "key": 2
+              }
+            ]
+          },
+          "submit_result": {
+            "format_type": "manual_test_result",
+            "retry": 3,
+            "url": "/users/:user_id/observations",
+            "url_parametr_name": "user_id"
+          },
+          "title": "Select test result",
+          "type": "test_result"
+        },
+        "template_name": "result_select_v1"
+      }
+    ],
+    "uuid": "00000300-0000-0000-0000-000000000012"
+  }
+}

@@ -1,0 +1,54 @@
+# before_all do |lane|
+#   update_plist(
+#     plist_path: "ios/OnGo/Info.plist",
+#     block: proc do |plist|
+#       plist['CFBundleShortVersionString'] = ENV['APP_VERSION']
+#     end
+#   )
+#   update_plist(
+#     plist_path: "ios/OnGo/Supporting/Expo.plist",
+#     block: proc do |plist|
+#       plist['EXUpdatesReleaseChannel'] = ENV['APP_ENV'] + '-' + ENV['APP_VERSION']
+#     end
+#   )
+# end
+
+lane :dev do
+end
+
+lane :qa do
+end
+
+lane :prod do
+  update_plist(
+    plist_path: "ios/OnGo/Info.plist",
+    block: proc do |plist|
+      plist['CFBundleVersion'] = ENV['APP_VERSION_CODE']
+    end
+  )
+end
+
+lane :simulator do
+  if ENV['APP_ENV'] == 'prod'
+    scheme_name = 'OnGo'
+  elsif ENV['APP_ENV'] == 'stage'
+    scheme_name = 'OnGo Stage'
+  elsif ENV['APP_ENV'] == 'qa'
+    scheme_name = 'OnGo Qa'
+  else
+    scheme_name = 'OnGo Dev'
+  end
+  xcodebuild(
+    clean: true,
+    build: true,
+    archive: true,
+    workspace: "ios/OnGo.xcworkspace",
+    archive_path: "ios/ongo-simulator",
+    export_method: "development",
+    scheme: scheme_name,
+    configuration: "Release",
+    sdk: "iphonesimulator",
+    destination: "generic/platform=iOS Simulator",
+    xcargs: "ONLY_ACTIVE_ARCH=NO"
+  )
+end

@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Museo_100';
+  src: url('./assets/fonts/MuseoSans_100.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Museo_300';
+  src: url('./assets/fonts/MuseoSans_300.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Museo_500';
+  src: url('./assets/fonts/MuseoSans_500.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Museo_700';
+  src: url('./assets/fonts/MuseoSans_700.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Museo_900';
+  src: url('./assets/fonts/MuseoSans_900.woff') format('woff');
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+/* body {
+  overflow: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: contain;
+} */
+
+html, body {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
+}
+
+body {
+  touch-action:none
+}
+
+
+/* Museo_100: Museo100,
+Museo_300: Museo300,
+
+
+ */

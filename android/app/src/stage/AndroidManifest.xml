@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ongo.live">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:networkSecurityConfig="@xml/network_security_config_proxy"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:usesCleartextTraffic,android:networkSecurityConfig"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:targetApi="28" >
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="ongo-stage"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

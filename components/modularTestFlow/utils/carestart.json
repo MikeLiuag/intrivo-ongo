@@ -1,0 +1,1832 @@
+{
+  "data": {
+    "slug": null,
+    "steps": [
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "false",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "false"
+        },
+        "id": "919d299e-1281-4c60-b2e1-e70885446824",
+        "next_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "210a778d-d2b1-4a71-9282-afc6e36b7456"
+          },
+          {
+            "condition": "true",
+            "step": "84c0fe12-10a7-4903-877a-6bdb0ef7e48a"
+          }
+        ],
+        "step_name": "Here we go",
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "We promise, it's easy. Just follow these simple steps to administer your CareStart™ COVID-19 Antigen Home Test and see your results quickly. If you want, <video-tag href=\"https://player.vimeo.com/video/513908490/config\" >click here</video-tag>  to watch a short video before you get started.",
+              "type": "primary"
+            }
+          ],
+          "image": "https://assets.intrivo.com/modularized_test_flow/on_go_one/ready_to_go%403x.png",
+          "subtitle": null,
+          "title": "Here we go, {{system.first_name}}"
+        },
+        "template_name": "content_with_image_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "84c0fe12-10a7-4903-877a-6bdb0ef7e48a",
+        "next_button": {
+          "enabled": "checkbox.checked",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "261a5db1-ca35-4697-b568-931ad07cec8d"
+          }
+        ],
+        "step_name": "confirm_agreement",
+        "template_arguments": {
+          "agreements": "• For in vitro diagnostic use only.<br />• This product has not been FDA cleared or approved but has been authorized by FDA under an Emergency Use Authorization (EUA).<br />• This product has been authorized only for the detection of proteins from SARS-CoV-2, not for any other viruses or pathogens.<br />• The emergency use of this product is only authorized for the duration of the declaration that circumstances exist justifying the authorization of emergency use of in vitro diagnostics for the detection and/or diagnosis of COVID-19 under Section 564(b)(1) of the Federal Food, Drug and Cosmetic Act, 21 U.S.C. § 360bbb-3(b)(1), unless the declaration is terminated, or authorization is revoked sooner.<br />• Children aged 13 years old and younger should be tested by a parent or legal guardian.<br />• Wear a safety mask or other face-covering when collecting anterior nares swab specimen from a child or another individual.<br />• Wash hands thoroughly for at least 20 seconds before and after handling nasal swab samples.<br />• In order to obtain accurate results, the user must follow the instructions for use.<br />• Immediately use after opening the test device in the pouch.<br />• Keep the test device on a flat surface during the testing.<br />• Keep testing kit and kit components away from children and pets before and after use.<br />• Excess blood or mucus on the swab specimen may interfere with test performance and may yield a false-positive result. Avoid touching any bleeding areas of the nasal cavity when collecting specimens.<br />• Inadequate or inappropriate sample collection, storage, and transport can result in incorrect results. If specimen storage is necessary, swabs can be placed into the extraction vial for up to four hours. Specimens should not be stored dry. <br />• When collecting a nasal swab sample, use only the Nasal Swab provided in the kit.<br />• Keep foreign substances and household cleaning products away from the test during the testing process. Contact with foreign substances and household cleaning products may result in an incorrect test result.<br />• Use appropriate precautions in the collection, handling, storage, and disposal of patient samples and used kit contents.<br />• Handle all specimens as though they contain infectious agents.<br />• Do not operate your test outside of storage conditions.<br />• Do not use on anyone under 2 years of age.<br />• Do not close the App during processing as it may cause an error and you will need a new test kit.<br />• Do not interpret the test result before 10 minutes or after 15 minutes from when the test was started.<br />• Do not use on anyone who is prone to nosebleeds or has had facial or head injury/surgery in the last 6 months.<br />• Do not use if the test device package is damaged.<br />• Do not touch the tip (specimen collection area) of the swab.<br />• Do not use the kit contents beyond the expiration date.<br />• Do not eat, drink, or smoke in the area where the specimens and kit contents are handled.<br />• Do not interchange kit contents from different lots.<br />• Do not re-use any contents in the kit as they are single-use only.<br />• Eye and skin contact with the extraction solution should be avoided.<br />• Extraction solution should not be ingested.<br />• The extraction solution in the vial contains potentially harmful chemicals. If the solution contacts the skin or eye, flush with copious amounts of water. If irritation persists, seek medical advice: https://www.poison.org/contact-us or 1-800-222-1222.",
+          "checkbox": {
+            "post_scroll_text": "I have read and understand",
+            "pre_scroll_text": "(Scroll to bottom of page to select)"
+          },
+          "title": "Warnings and Precautions"
+        },
+        "template_name": "agreement_with_check_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "261a5db1-ca35-4697-b568-931ad07cec8d",
+        "next_button": {
+          "enabled": "zipcode.value =~ /^((\\w{2,}[-\\s.])+\\w{2,})$|^(\\w{4,})$/",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "07c6264d-5305-4e07-beb1-b1962bd89776"
+          }
+        ],
+        "step_name": "input_location_zipcode",
+        "template_arguments": {
+          "subtitle": "What is the postal (zip) code of where you are at right now?",
+          "title": "Location",
+          "zipcode": {
+            "placeholder": "Enter postal (zip) code"
+          }
+        },
+        "template_name": "zipcode_input_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "07c6264d-5305-4e07-beb1-b1962bd89776",
+        "next_button": {
+          "enabled": "list_options.selected",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": {
+          "symptoms": "list_options"
+        },
+        "step_logic": [
+          {
+            "condition": "list_options.selected_count > 0",
+            "step": "7fdcfca3-7a4e-40d0-b3eb-57f13e50447d"
+          },
+          {
+            "condition": "true",
+            "step": "a902c26f-4612-4002-a489-36bc24f1890d"
+          }
+        ],
+        "step_name": "symptoms_checkboxes",
+        "template_arguments": {
+          "list_options": {
+            "null_option": "None of the above",
+            "options": [
+              {
+                "text": "Fever over 100.4F/38C or chills",
+                "value": "fever"
+              },
+              {
+                "text": "Cough",
+                "value": "cough"
+              },
+              {
+                "text": "Shortness of breath or<br />difficulty breathing",
+                "value": "breathe"
+              },
+              {
+                "text": "Fatigue",
+                "value": "fatigue"
+              },
+              {
+                "text": "Muscle or body aches",
+                "value": "muscle"
+              },
+              {
+                "text": "Headache",
+                "value": "headache"
+              },
+              {
+                "text": "New loss of taste or smell",
+                "value": "smell"
+              },
+              {
+                "text": "Sore throat",
+                "value": "throat"
+              },
+              {
+                "text": "Congestion or runny nose",
+                "value": "congestion"
+              }
+            ]
+          },
+          "subtitle": "Select ALL the symptoms you've had.",
+          "title": "Symptoms"
+        },
+        "template_name": "optional_multi_select_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "7fdcfca3-7a4e-40d0-b3eb-57f13e50447d",
+        "next_button": {
+          "enabled": "calendar.selected",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": {
+          "symptoms_first_date": "calendar"
+        },
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "000089eb-b7e4-481e-b61d-9a353bce0993"
+          }
+        ],
+        "step_name": "symptoms_start_date",
+        "template_arguments": {
+          "calendar": {
+            "date_range_to": "{{system.today}}",
+            "null_value": "I’m not sure",
+            "type": "date"
+          },
+          "subtitle": "When did your symptoms first start?",
+          "title": ""
+        },
+        "template_name": "monthly_calendar_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "000089eb-b7e4-481e-b61d-9a353bce0993",
+        "next_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "a902c26f-4612-4002-a489-36bc24f1890d"
+          }
+        ],
+        "step_name": "biotin",
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "False negative results may occur in patients who have indicated or whose clinical status or history would indicate they are currently taking high doses of Biotin (> 10 mg per day).",
+              "type": "primary"
+            }
+          ],
+          "image": null,
+          "subtitle": "Limitations for users taking Biotin (Vitamin B7) supplement:",
+          "title": "Limitations"
+        },
+        "template_name": "content_with_image_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "a902c26f-4612-4002-a489-36bc24f1890d",
+        "next_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "3d4c8035-535e-44fa-a039-06bbb804fa93"
+          }
+        ],
+        "step_name": "step1",
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "Wash your hands thoroughly for at least 20 seconds before the test.",
+              "type": "primary"
+            }
+          ],
+          "image": "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-step1%403x.png",
+          "subtitle": null,
+          "title": "Step 1"
+        },
+        "template_name": "content_with_image_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "3d4c8035-535e-44fa-a039-06bbb804fa93",
+        "next_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "4d16599a-4131-4243-9509-8e8c7defd9a7"
+          }
+        ],
+        "step_name": "step2",
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "Remove your CareStart™ COVID-19 Antigen Home Test components from the box.",
+              "type": "primary"
+            }
+          ],
+          "image": "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-step2%403x.png",
+          "subtitle": null,
+          "title": "Step 2"
+        },
+        "template_name": "content_with_image_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "4d16599a-4131-4243-9509-8e8c7defd9a7",
+        "next_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "23e26a31-875b-4058-827d-00e2f188cad8"
+          }
+        ],
+        "step_name": "step3",
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "Remove the test cassette and place it on a clean, flat surface.",
+              "type": "primary"
+            }
+          ],
+          "image": "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-step3%403x.png",
+          "subtitle": null,
+          "title": "Step 3"
+        },
+        "template_name": "content_with_image_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "23e26a31-875b-4058-827d-00e2f188cad8",
+        "next_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "fc5bb870-18ce-4098-9f6c-2d90cf6b1436"
+          }
+        ],
+        "step_name": "step4",
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "Locate the extraction vial and gently peel off the aluminum foil seal, being sure to keep the vial upright, and place it in the packaging tray.",
+              "type": "primary"
+            },
+            {
+              "text": "<span style=\"font-family: 'Museo_700'\">Important:</span> Do not spill the solution. Eye and skin contact with the solution in the vial should be avoided.",
+              "type": "warning"
+            }
+          ],
+          "image": "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-step4%403x.png",
+          "subtitle": null,
+          "title": "Step 4"
+        },
+        "template_name": "content_with_image_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "fc5bb870-18ce-4098-9f6c-2d90cf6b1436",
+        "next_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "system.is_minor",
+            "step": "880b8306-c278-4fa7-b590-3977a7a88e67"
+          },
+          {
+            "condition": "true",
+            "step": "00007e31-83b2-4275-ad62-491931961abb"
+          }
+        ],
+        "step_name": "step5",
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "Locate the nasal swab and remove it from the pouch. Be careful not to touch the swab tip.",
+              "type": "primary"
+            }
+          ],
+          "image": "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-step5%403x.png",
+          "subtitle": null,
+          "title": "Step 5"
+        },
+        "template_name": "content_with_image_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "880b8306-c278-4fa7-b590-3977a7a88e67",
+        "next_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Start timer"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "7d950133-91fd-4563-92eb-d84f8b5d651f"
+          }
+        ],
+        "step_name": "step6_1",
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "Gently insert the swab about ¾ of an inch into the LEFT nostril. Then, slowly rotate the swab at least 5 times in a circular path for a total of 15 seconds.<br />",
+              "type": "primary"
+            },
+            {
+              "text": "If you have questions, see the <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/testing/How-To-Collect-Anterior-Nasal-Specimen-for-COVID-19.pdf\">CDC Guidelines on Swab Collection</a>",
+              "type": "primary"
+            }
+          ],
+          "images": [
+            "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-step6-child_top%403x.png",
+            "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-step6-child_bottom%403x.png"
+          ],
+          "subtitle": null,
+          "title": "Step 6"
+        },
+        "template_name": "content_with_image_v2"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "00007e31-83b2-4275-ad62-491931961abb",
+        "next_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Start timer"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "7d950133-91fd-4563-92eb-d84f8b5d651f"
+          }
+        ],
+        "step_name": "step6_1",
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "Gently insert the swab about ¾ of an inch into the LEFT nostril. Then, slowly rotate the swab at least 5 times in a circular path for a total of 15 seconds.<br />",
+              "type": "primary"
+            },
+            {
+              "text": "If you have questions, see the <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/testing/How-To-Collect-Anterior-Nasal-Specimen-for-COVID-19.pdf\">CDC Guidelines on Swab Collection</a>",
+              "type": "primary"
+            }
+          ],
+          "images": [
+            "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-step6-adult_top%403x.png",
+            "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-step6-adult_bottom%403x.png"
+          ],
+          "subtitle": null,
+          "title": "Step 6"
+        },
+        "template_name": "content_with_image_v2"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "7d950133-91fd-4563-92eb-d84f8b5d651f",
+        "next_button": {
+          "enabled": "timer.completed",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "system.is_minor",
+            "step": "7a229cb2-832b-4358-80bf-6a25a5eee21a"
+          },
+          {
+            "condition": "true",
+            "step": "b52a89e2-a99a-4d79-b50e-351c6e060ff2"
+          }
+        ],
+        "step_name": "step6_2",
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "Gently insert the swab about ¾ of an inch into the LEFT nostril. Then, slowly rotate the swab at least 5 times in a circular path for a total of 15 seconds.",
+              "type": "primary"
+            }
+          ],
+          "timer": {
+            "auto_start": "true",
+            "ended_text": "Complete",
+            "settings": [
+              {
+                "counter_bg_color": ["#FFFFFF", "#FFFFFF"],
+                "counter_color": "#2A4D9B",
+                "ending_actions": ["vibrate", "sound"],
+                "filling_color": ["#5179D3", "#2A4D9B"],
+                "font_color": "#fff",
+                "ring_color": "#2A4D9B",
+                "ttl_range": [15, 0]
+              }
+            ],
+            "ttl": 15
+          },
+          "title": "Step 6"
+        },
+        "template_name": "timer_comp_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "7a229cb2-832b-4358-80bf-6a25a5eee21a",
+        "next_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Start timer"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "8b6719b9-48ef-40e0-bc9d-e20e445308b8"
+          }
+        ],
+        "step_name": "step7_1",
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "Gently remove the swab from the <span style=\"font-family: 'Museo_700'\">LEFT</span> nostril and place directly into the <span style=\"font-family: 'Museo_700'\">RIGHT</span> nostril, repeating the process of rotating at least 5 times in a circular path for a total of 15 seconds. Remove the swab from the <span style=\"font-family: 'Museo_700'\">RIGHT</span> nostril.",
+              "type": "primary"
+            }
+          ],
+          "images": [
+            "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-step7-child_top%403x.png",
+            "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-step7-child_bottom%403x.png"
+          ],
+          "subtitle": null,
+          "title": "Step 7"
+        },
+        "template_name": "content_with_image_v2"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "b52a89e2-a99a-4d79-b50e-351c6e060ff2",
+        "next_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Start timer"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "8b6719b9-48ef-40e0-bc9d-e20e445308b8"
+          }
+        ],
+        "step_name": "step7_1",
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "Gently remove the swab from the <span style=\"font-family: 'Museo_700'\">LEFT</span> nostril and place directly into the <span style=\"font-family: 'Museo_700'\">RIGHT</span> nostril, repeating the process of rotating at least 5 times in a circular path for a total of 15 seconds. Remove the swab from the <span style=\"font-family: 'Museo_700'\">RIGHT</span> nostril.",
+              "type": "primary"
+            }
+          ],
+          "images": [
+            "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-step7-adult_top%403x.png",
+            "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-step7-adult_bottom%403x.png"
+          ],
+          "subtitle": null,
+          "title": "Step 7"
+        },
+        "template_name": "content_with_image_v2"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "8b6719b9-48ef-40e0-bc9d-e20e445308b8",
+        "next_button": {
+          "enabled": "timer.completed",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "9be6bdf7-a1c7-4336-8a9d-e1f89d50cec3"
+          }
+        ],
+        "step_name": "step7_2",
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "Gently remove the swab from the <b>LEFT</b> nostril and place directly into the <b>RIGHT</b> nostril, repeating the process of rotating at least 5 times in a circular path for a total of 15 seconds. Remove the swab from the <b>RIGHT</b> nostril.",
+              "type": "primary"
+            }
+          ],
+          "timer": {
+            "auto_start": "true",
+            "ended_text": "Complete",
+            "settings": [
+              {
+                "counter_bg_color": ["#FFFFFF", "#FFFFFF"],
+                "counter_color": "#2A4D9B",
+                "ending_actions": ["vibrate", "sound"],
+                "filling_color": ["#5179D3", "#2A4D9B"],
+                "font_color": "#fff",
+                "ring_color": "#2A4D9B",
+                "ttl_range": [15, 0]
+              }
+            ],
+            "ttl": 15
+          },
+          "title": "Step 7"
+        },
+        "template_name": "timer_comp_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "9be6bdf7-a1c7-4336-8a9d-e1f89d50cec3",
+        "next_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "087555aa-e8f2-4f4b-8c9d-a06bb9fda49b"
+          }
+        ],
+        "step_name": "step8",
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "Place the swab into the extraction vial. Rotate the swab vigorously at least 5 times.",
+              "type": "primary"
+            }
+          ],
+          "image": "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-step8%403x.png",
+          "subtitle": null,
+          "title": "Step 8"
+        },
+        "template_name": "content_with_image_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "087555aa-e8f2-4f4b-8c9d-a06bb9fda49b",
+        "next_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "dee7bc6f-9940-450f-852a-7f0d0c24a426"
+          }
+        ],
+        "step_name": "step9",
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "Remove the swab by rotating against the extraction vial while squeezing the sides of the vial to release the liquid from the swab.<br />Discard the swab into the trash.",
+              "type": "primary"
+            }
+          ],
+          "image": "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-step9%403x.png",
+          "subtitle": null,
+          "title": "Step 9"
+        },
+        "template_name": "content_with_image_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "dee7bc6f-9940-450f-852a-7f0d0c24a426",
+        "next_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "0000ab44-a8c6-4950-8b21-f417d3d5d276"
+          }
+        ],
+        "step_name": "step10",
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "Close the vial by pushing the cap firmly onto the vial.",
+              "type": "primary"
+            }
+          ],
+          "image": "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-step10%403x.png",
+          "subtitle": null,
+          "title": "Step 10"
+        },
+        "template_name": "content_with_image_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "0000ab44-a8c6-4950-8b21-f417d3d5d276",
+        "next_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "210a778d-d2b1-4a71-9282-afc6e36b7456"
+          }
+        ],
+        "step_name": "step11",
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "With your finger, mix thoroughly by flicking the bottom of the vial.",
+              "type": "primary"
+            }
+          ],
+          "image": "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-step11%403x.png",
+          "subtitle": null,
+          "title": "Step 11"
+        },
+        "template_name": "content_with_image_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "210a778d-d2b1-4a71-9282-afc6e36b7456",
+        "next_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Click here after applying sample"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "fc1ffb2a-242e-4f01-99f2-51110119daa0"
+          }
+        ],
+        "step_name": "step12",
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "Invert the extraction vial and hold the sample vertically above the sample well. Squeeze the vial gently. Allow <b>THREE (3) drops</b> of sample to fall into the sample well.",
+              "type": "primary"
+            },
+            {
+              "text": "<span style=\"font-family: 'Museo_700'\">Important:</span> Click the button below as soon as the sample is added.",
+              "type": "warning"
+            }
+          ],
+          "image": "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-step12%403x.png",
+          "subtitle": null,
+          "title": "Step 12"
+        },
+        "template_name": "content_with_image_v1"
+      },
+      {
+        "auto_next": "timer.remaining == 0",
+        "back_button": {
+          "enabled": "false",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "false"
+        },
+        "id": "fc1ffb2a-242e-4f01-99f2-51110119daa0",
+        "next_button": {
+          "enabled": "false",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Take photo"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "4a7f44a3-52ed-4e33-98db-c8804c432fce"
+          }
+        ],
+        "step_name": "waiting",
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "When the timer completes, you will need to photograph your test cassette within 5 minutes to interpret the result.",
+              "type": "primary"
+            },
+            {
+              "text": "<b>Important</b>: Do not move or lift the test cassette during this time. Do not exit the app during this process.",
+              "type": "warning"
+            }
+          ],
+          "timer": {
+            "auto_start": "true",
+            "ended_text": "Complete",
+            "settings": [
+              {
+                "counter_bg_color": ["#FFFFFF", "#FFFFFF"],
+                "counter_color": "#2A4D9B",
+                "ending_actions": ["vibrate", "sound"],
+                "filling_color": ["#5179D3", "#2A4D9B"],
+                "font_color": "#2A4D9B",
+                "ring_color": "#2A4D9B",
+                "ttl_range": [600, 0]
+              }
+            ],
+            "ttl": 6
+          },
+          "title": "The test is doing its job!"
+        },
+        "template_name": "timer_comp_v1"
+      },
+      {
+        "auto_next": "timer.remaining == 0",
+        "back_button": {
+          "enabled": "false",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "false"
+        },
+        "id": "4a7f44a3-52ed-4e33-98db-c8804c432fce",
+        "next_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Take photo"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": {
+          "test_timer": "timer"
+        },
+        "step_logic": [
+          {
+            "condition": "timer.remaining == 0",
+            "step": "00003f74-1d2a-4c2c-9008-5dfa999452ba"
+          },
+          {
+            "condition": "true",
+            "step": "00006b94-2ed4-4cb3-94df-b76368430837"
+          }
+        ],
+        "step_name": "test_timer_start",
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "Your test is now ready for interpretation. Please place your test cassette on a <b>flat surface</b> and make sure there is good lighting in order to take a photo.",
+              "type": "primary"
+            },
+            {
+              "text": "<b>Important</b>: You have <time-display format='mm:ss'>{{timer.remaining}}</time-display> minutes to photograph and authenticate the test cassette prior to result interpretation, otherwise the test will be invalid.",
+              "type": "warning"
+            }
+          ],
+          "timer": {
+            "auto_start": "true",
+            "ended_text": "Complete",
+            "settings": [
+              {
+                "counter_bg_color": ["#FA9E62", "#F48034"],
+                "counter_color": "#fff",
+                "ending_actions": ["vibrate"],
+                "filling_color": ["#FA9E62", "#F48034"],
+                "font_color": "#ffffff",
+                "ring_color": "#F48034",
+                "ttl_range": [300, 120]
+              },
+              {
+                "counter_bg_color": ["#FA9E62", "#F48034"],
+                "counter_color": "#fff",
+                "ending_actions": ["vibrate"],
+                "filling_color": ["#FA9E62", "#F48034"],
+                "font_color": "#ffffff",
+                "ring_color": "#F48034",
+                "ttl_range": [120, 60]
+              },
+              {
+                "counter_bg_color": ["#E35D75", "#B00020"],
+                "counter_color": "#fff",
+                "ending_actions": ["vibrate", "sound"],
+                "filling_color": ["#E35D75", "#B00020"],
+                "font_color": "#ffffff",
+                "ring_color": "#EB5757",
+                "ttl_range": [60, 0]
+              }
+            ],
+            "ttl": 30
+          },
+          "title": "Result Interpretation"
+        },
+        "template_name": "timer_comp_v1"
+      },
+      {
+        "auto_next": "image.base64 != null or global.test_timer.remaining == 0",
+        "back_button": {
+          "enabled": "false",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "false"
+        },
+        "id": "00006b94-2ed4-4cb3-94df-b76368430837",
+        "next_button": {
+          "enabled": "false",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "false"
+        },
+        "put_global": {
+          "test_image_resp": "submit_result.response"
+        },
+        "step_logic": [
+          {
+            "condition": "global.test_timer.remaining == 0",
+            "step": "00003f74-1d2a-4c2c-9008-5dfa999452ba"
+          },
+          {
+            "condition": "submit_result.success == true",
+            "step": "31174c66-599b-45e9-8812-86a6fa688e7f"
+          },
+          {
+            "condition": "true",
+            "step": "31174c66-599b-45e9-8812-b76368430947"
+          }
+        ],
+        "step_name": "take_photo",
+        "template_arguments": {
+          "capture_frame": "ongo",
+          "image": null,
+          "instructions": [
+            "Position the device within the marked area.",
+            "When ready, press the camera button."
+          ],
+          "left_text": "<time-display format='h:mm:ss'>{{global.test_timer.remaining}}</time-display>",
+          "submit_result": {
+            "arguments": {
+              "ClientId": "com.intrivo.workflow",
+              "Image2Base64": "{{image.base64}}"
+            },
+            "headers": {
+              "ApiKey": "com.intrivo.workflow",
+              "ApiSecret": "b3dbd819-92e6-41ab-8ff1-f2bd82fbb738"
+            },
+            "method": "POST",
+            "retry": 3,
+            "url": "https://scannerapi.intrivo.com/process"
+          }
+        },
+        "template_name": "take_photo_v1"
+      },
+      {
+        "auto_next": "image.base64 != null or global.test_timer.remaining == 0",
+        "back_button": {
+          "enabled": "false",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "false"
+        },
+        "id": "31174c66-599b-45e9-8812-b76368430947",
+        "next_button": {
+          "enabled": "false",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "false"
+        },
+        "put_global": {
+          "test_image_resp": "submit_result.response"
+        },
+        "step_logic": [
+          {
+            "condition": "global.test_timer.remaining == 0",
+            "step": "00003f74-1d2a-4c2c-9008-5dfa999452ba"
+          },
+          {
+            "condition": "submit_result.success == true",
+            "step": "31174c66-599b-45e9-8812-86a6fa688e7f"
+          },
+          {
+            "condition": "true",
+            "step": "31174c66-599b-45e9-8812-86a6fa688e7f"
+          }
+        ],
+        "step_name": "take_photo",
+        "template_arguments": {
+          "capture_frame": "ongo",
+          "image": null,
+          "instructions": ["Something went wrong.", "Please try again."],
+          "left_text": "<time-display format='h:mm:ss'>{{global.test_timer.remaining}}</time-display>",
+          "submit_result": {
+            "arguments": {
+              "ClientId": "com.intrivo.workflow",
+              "Image2Base64": "{{image.base64}}"
+            },
+            "headers": {
+              "ApiKey": "com.intrivo.workflow",
+              "ApiSecret": "b3dbd819-92e6-41ab-8ff1-f2bd82fbb738"
+            },
+            "method": "POST",
+            "retry": 3,
+            "url": "https://scannerapi.intrivo.com/process"
+          }
+        },
+        "template_name": "take_photo_v1"
+      },
+      {
+        "auto_next": "global.test_timer.remaining == 0",
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "31174c66-599b-45e9-8812-86a6fa688e7f",
+        "next_button": {
+          "enabled": "result.selected",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": {
+          "questionnaire_result": "result.value"
+        },
+        "step_logic": [
+          {
+            "condition": "global.test_timer.remaining == 0",
+            "step": "00003f74-1d2a-4c2c-9008-5dfa999452ba"
+          },
+          {
+            "condition": "result.value == \"not_invalid\"",
+            "step": "66493f9e-df6a-4698-9213-fa32d5cddc3d"
+          },
+          {
+            "condition": "result.value == \"invalid\"",
+            "step": "00003f74-1d2a-4c2c-9008-5dfa999452ba"
+          }
+        ],
+        "step_name": "confirm_result_c",
+        "drop_global": ["test_timer"],
+        "template_arguments": {
+          "description": "Is there a <span style=\"color:#3F357C\">PURPLE</span> line next to 'C' on the test?",
+          "image": "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-confirm_result1%403x.png",
+          "result": [
+            {
+              "text": "Yes, there is a <span style=\"color:#3F357C\">PURPLE</span> line",
+              "value": "not_invalid"
+            },
+            {
+              "text": "No, there is no line",
+              "value": "invalid"
+            }
+          ],
+          "subtitle": "<time-display format=\"m:ss\">{{global.test_timer.remaining}}</time-display> remaining",
+          "title": "Confirm Result"
+        },
+        "template_name": "form_single_selector_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "66493f9e-df6a-4698-9213-fa32d5cddc3d",
+        "next_button": {
+          "enabled": "result.selected",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": {
+          "questionnaire_result": "result.value"
+        },
+        "step_logic": [
+          {
+            "condition": "global.test_timer.remaining == 0",
+            "step": "00003f74-1d2a-4c2c-9008-5dfa999452ba"
+          },
+          {
+            "condition": "result.value == \"positive\"",
+            "step": "00003f74-1d2a-4c2c-9008-5dfa999452ba"
+          },
+          {
+            "condition": "result.value == \"undetermined\"",
+            "step": "8a0addd1-3110-4204-b3fb-13a95f468457"
+          }
+        ],
+        "step_name": "confirm_result_t",
+        "template_arguments": {
+          "description": "Is there a <span style=\"color:#26A9E0\">BLUE</span> line next to 'T' on the test?",
+          "image": "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-confirm_result2%403x.png",
+          "result": [
+            {
+              "text": "Yes, there is a <span style=\"color:#26A9E0\">BLUE</span> line",
+              "value": "positive"
+            },
+            {
+              "text": "No, there is no line",
+              "value": "undetermined"
+            }
+          ],
+          "subtitle": "<time-display format=\"m:ss\">{{global.test_timer.remaining}}</time-display> remaining",
+          "title": "Confirm Result"
+        },
+        "template_name": "form_single_selector_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "8a0addd1-3110-4204-b3fb-13a95f468457",
+        "next_button": {
+          "enabled": "result.selected",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": { "questionnaire_result": "result.value" },
+        "step_logic": [
+          {
+            "condition": "global.test_timer.remaining == 0",
+            "step": "00003f74-1d2a-4c2c-9008-5dfa999452ba"
+          },
+          {
+            "condition": "true",
+            "step": "00003f74-1d2a-4c2c-9008-5dfa999452ba"
+          }
+        ],
+        "step_name": "double_check_result_t",
+        "template_arguments": {
+          "description": "Look very closely at the line next to 'T'. The test line can be very faint.",
+          "image": "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-are_you_sure%403x.png",
+          "result": [
+            {
+              "text": "Yes, there is a <span style=\"color:#26A9E0\">BLUE</span> line",
+              "value": "positive"
+            },
+            {
+              "text": "No, there is no line",
+              "value": "negative"
+            }
+          ],
+          "subtitle": "<time-display format=\"m:ss\">{{global.test_timer.remaining}}</time-display> remaining",
+          "title": "Are you sure?"
+        },
+        "template_name": "form_single_selector_v1"
+      },
+      {
+        "auto_next": "true",
+        "id": "00003f74-1d2a-4c2c-9008-5dfa999452ba",
+        "drop_global": ["test_timer"],
+        "submit_result": {
+          "arguments": {
+            "ClientId": "com.intrivo.workflow",
+            "Image2Base64": "{{image.base64}}"
+          },
+          "headers": {
+            "ApiKey": "com.intrivo.workflow",
+            "ApiSecret": "b3dbd819-92e6-41ab-8ff1-f2bd82fbb738"
+          },
+          "method": "POST",
+          "retry": 3,
+          "url": "https://scannerapi.intrivo.com/process"
+        },
+        "step_logic": [
+          {
+            "condition": "global.questionnaire_result == \"negative\"",
+            "step": "cd24be58-0ca6-40b9-8b37-0c9ec5c1f5b6"
+          },
+          {
+            "condition": "global.questionnaire_result == \"positive\"",
+            "step": "dd0ec745-92aa-4c95-ab35-c30f0301401d"
+          },
+          {
+            "condition": "true",
+            "step": "d1c0d73f-0e72-4cbf-b39d-0a293f222a11"
+          }
+        ],
+        "template_arguments": {
+          "contents": [
+            {
+              "text": "Invert the extraction vial and hold the sample vertically above the sample well. Squeeze the vial gently. Allow <b>THREE (3) drops</b> of sample to fall into the sample well.",
+              "type": "primary"
+            },
+            {
+              "text": "<span style=\"font-family: 'Museo_700'\">Important:</span> Click the button below as soon as the sample is added.",
+              "type": "warning"
+            }
+          ],
+          "image": "https://assets.intrivo.com/modularized_test_flow/carestart/carestart-step12%403x.png",
+          "subtitle": null,
+          "title": "LOGIC ONLY"
+        },
+        "template_name": "submit_result_v1"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "false",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "false"
+        },
+        "id": "d1c0d73f-0e72-4cbf-b39d-0a293f222a11",
+        "next_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Back to home"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "55216f3a-4bf4-46ba-95c7-ff86563fdd9a"
+          }
+        ],
+        "step_name": "test_result_invalid",
+        "template_arguments": {
+          "cdc_contents": [
+            "Wear a mask that covers your nose and mouth",
+            "Stay 6 feet apart from others",
+            "Avoid crowds",
+            "Avoid poorly ventilated indoor spaces",
+            "Wash your hands often"
+          ],
+          "cdc_title": "CDC Guidelines",
+          "contents": [
+            {
+              "text": "Your test has been successfully interpreted. Your result is <span style=\"color:#F48034\">INVALID</span>.",
+              "type": "primary"
+            }
+          ],
+          "color": "#F48034",
+          "status": "Test invalid",
+          "subtitle": "Test result <span style=\"color:#F48034\">Invalid</span>",
+          "title": "Test Result"
+        },
+        "template_name": "test_result_v2"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "false",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "false"
+        },
+        "id": "dd0ec745-92aa-4c95-ab35-c30f0301401d",
+        "next_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Back to home"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "abbf447f-73c2-498d-a746-ebc2fe84361e"
+          }
+        ],
+        "step_name": "test_result_positive",
+        "template_arguments": {
+          "cdc_contents": [
+            "Stay home",
+            "Isolate yourself from others",
+            "Contact your Healthcare Provider to determine the best treatment plan for you"
+          ],
+          "cdc_title": "CDC Guidelines",
+          "contents": [
+            {
+              "text": "Your test has been successfully interpreted. Your result is <span style=\"color:#EB5757\">POSITIVE</span> for COVID-19.",
+              "type": "primary"
+            }
+          ],
+          "status": "COVID-19 detected",
+          "color": "#EB5757",
+          "subtitle": "Test result <span style=\"color:#EB5757\">Positive</span>",
+          "title": "Test Result"
+        },
+        "template_name": "test_result_v2"
+      },
+      {
+        "auto_next": null,
+        "back_button": {
+          "enabled": "false",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "false"
+        },
+        "id": "cd24be58-0ca6-40b9-8b37-0c9ec5c1f5b6",
+        "next_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Back to home"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": null,
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "9adcfb00-07b5-475b-8dde-6b60dfa946b7"
+          }
+        ],
+        "step_name": "test_result_negative",
+        "template_arguments": {
+          "cdc_contents": [
+            "Wear a mask that covers your nose and mouth",
+            "Stay 6 feet apart from others",
+            "Avoid crowds",
+            "Avoid poorly ventilated indoor spaces",
+            "Wash your hands often"
+          ],
+          "cdc_title": "CDC Guidelines",
+          "contents": [
+            {
+              "text": "Your test has been successfully interpreted. Your result is <span style=\"color:#6FCF97\">NEGATIVE</span> for COVID-19.",
+              "type": "primary"
+            },
+            {
+              "text": "<span style=\"font-family: 'Museo_700'\">Important</span>: If used for serial testing, a second test should be obtained between 24 and 48 hours from now.",
+              "type": "warning"
+            }
+          ],
+          "status": "COVID-19 not detected",
+          "color": "#6FCF97",
+          "subtitle": "Test result <span style=\"color:#6FCF97\">Negative</span>",
+          "title": "Test Result"
+        },
+        "template_name": "test_result_v2"
+      },
+      {
+        "auto_next": "true",
+        "back_button": {
+          "enabled": "false",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "false"
+        },
+        "id": "55216f3a-4bf4-46ba-95c7-ff86563fdd9a",
+        "next_button": {
+          "enabled": "false",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "false"
+        },
+        "put_global": null,
+        "step_logic": [],
+        "step_name": "test_complete_1",
+        "template_arguments": {
+          "image": "http://example.com/assets/icon.png",
+          "subtitle": "Get a new result in 10 minutes or less, or purchase more tests from our online store.",
+          "title": "Test complete"
+        },
+        "template_name": "test_complete_v1"
+      },
+      {
+        "auto_next": "true",
+        "back_button": {
+          "enabled": "false",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "false"
+        },
+        "id": "abbf447f-73c2-498d-a746-ebc2fe84361e",
+        "next_button": {
+          "enabled": "false",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "false"
+        },
+        "put_global": null,
+        "step_logic": [],
+        "step_name": "test_complete_2",
+        "template_arguments": {
+          "image": "http://example.com/assets/icon.png",
+          "subtitle": "We hope you feel better soon. We’ve emailed you resources to give you peace of mind.",
+          "title": "Test complete"
+        },
+        "template_name": "test_complete_v1"
+      },
+      {
+        "auto_next": "true",
+        "back_button": {
+          "enabled": "false",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "false"
+        },
+        "id": "9adcfb00-07b5-475b-8dde-6b60dfa946b7",
+        "next_button": {
+          "enabled": "false",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "false"
+        },
+        "put_global": null,
+        "step_logic": [],
+        "step_name": "test_complete_3",
+        "template_arguments": {
+          "image": "http://example.com/assets/icon2.png",
+          "subtitle": "Congratulations on making the world just a little bit healthier, happier, and safer. ",
+          "title": "You’ve done your part!"
+        },
+        "template_name": "test_complete_v1"
+      }
+    ],
+    "uuid": "714eeb01-af5f-4e2c-8cdc-47cb719bce85"
+  }
+}

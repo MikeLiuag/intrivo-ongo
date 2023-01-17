@@ -1,0 +1,27 @@
+
+////////
+2022-02-16
+
+Upgrade Notes:
+In order to upgrade to SDK 44, we need to make sure expo-cli and Xcode are up to date
+expo-cli: npm i -g expo-cli
+Xcode: upgrade to v13
+
+Then run the following commands
+brew install git-lfs
+git lfs install
+git lfs pull
+rm -rf node_modules
+yarn
+yarn cache clean
+expo run:ios 
+
+if you get an error at expo run:ios, then do 
+expo prebuild --clean --platform ios
+Do not run expo prebuild --clean --platform android
+
+if you get an error at yarn,
+then ensure the repo was installed using the SSH git link
+then reclone the repo
+
+

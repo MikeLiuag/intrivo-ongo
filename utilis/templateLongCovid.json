@@ -1,0 +1,875 @@
+{
+  "data": {
+    "slug": "long-covid",
+    "steps": [
+      {
+        "analytics_name": "LCOVID-Quiz-Q1",
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "000047c9-ef9e-4a0b-aa8a-efaf8786ad51",
+        "next_button": {
+          "enabled": "selected",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": {
+          "question1": "answer",
+          "question10": null,
+          "question2": null,
+          "question3": null,
+          "question4": null,
+          "question5": null,
+          "question6": null,
+          "question7": null,
+          "question8": null,
+          "question9": null,
+          "symptoms": null,
+          "symptoms_first_date": null,
+          "test_image_resp": null,
+          "test_timer": null,
+          "user_questionnaire_id": null
+        },
+        "step_logic": [
+          {
+            "condition": "answer.value > 0",
+            "step": "00001b88-3042-430a-9358-7e9b6a1b1f80"
+          },
+          {
+            "condition": "true",
+            "step": "00009d09-ce5b-40e2-a37d-1af0e53d6bd4"
+          }
+        ],
+        "step_name": "Positive COVID",
+        "template_arguments": {
+          "additional_information": null,
+          "answers": {
+            "null_option": null,
+            "null_value": null,
+            "options": [
+              {
+                "id": "000084c8-3953-4a93-803f-01cebf0e7c33",
+                "key": 0,
+                "subtitle": null,
+                "text": "Yes",
+                "value": 1
+              },
+              {
+                "id": "0000da36-8367-41b1-a7e5-cbd270512d6e",
+                "key": 1,
+                "subtitle": null,
+                "text": "No",
+                "value": 0
+              }
+            ]
+          },
+          "insight": {
+            "source_title": "CDC",
+            "source_url": "https://www.cdc.gov/coronavirus/2019-ncov/long-term-effects/index.html",
+            "text": "Long COVID can be found in anyone who has been infected with COVID-19, even people who had mild illness or no symptoms.",
+            "title": "As you might have guessed..."
+          },
+          "key": "00005874-641d-4b90-9ca9-6ae0d18f4dcb",
+          "question": "Have you previously tested positive for COVID-19?",
+          "subtitle": null,
+          "title": null
+        },
+        "template_name": "question_select_v1"
+      },
+      {
+        "analytics_name": "LCOVID-Quiz-Q2A",
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "00009d09-ce5b-40e2-a37d-1af0e53d6bd4",
+        "next_button": {
+          "enabled": "selected",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": {
+          "question1": null,
+          "question10": null,
+          "question2": "answer",
+          "question3": null,
+          "question4": null,
+          "question5": null,
+          "question6": null,
+          "question7": null,
+          "question8": null,
+          "question9": null,
+          "symptoms": null,
+          "symptoms_first_date": null,
+          "test_image_resp": null,
+          "test_timer": null,
+          "user_questionnaire_id": null
+        },
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "0000bc60-0679-4e66-b25f-1003090aad2c"
+          }
+        ],
+        "step_name": "Possible positive",
+        "template_arguments": {
+          "additional_information": null,
+          "answers": {
+            "null_option": null,
+            "null_value": null,
+            "options": [
+              {
+                "id": "00008d33-af81-4710-8e4d-61b4ca2f5eac",
+                "key": 0,
+                "subtitle": null,
+                "text": "Yes",
+                "value": 1
+              },
+              {
+                "id": "00008979-ebec-433e-a948-c8e833e35a28",
+                "key": 1,
+                "subtitle": null,
+                "text": "No",
+                "value": 0
+              }
+            ]
+          },
+          "insight": {
+            "source_title": "CDC",
+            "source_url": "https://www.cdc.gov/coronavirus/2019-ncov/long-term-effects/index.html",
+            "text": "While most people with Long COVID conditions have evidence of COVID-19 illness, in some cases, a person with post-COVID conditions may not have tested positive for the virus or known they were infected.",
+            "title": "Unlikely you have avoided it..."
+          },
+          "key": "00000789-aa0b-4d9d-8644-8466100f7121",
+          "question": "Do you believe there is a chance you had COVID-19, even if you never tested positive?",
+          "subtitle": null,
+          "title": null
+        },
+        "template_name": "question_select_v1"
+      },
+      {
+        "analytics_name": "LCOVID-Quiz-Q2B",
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "00001b88-3042-430a-9358-7e9b6a1b1f80",
+        "next_button": {
+          "enabled": "selected",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": {
+          "question1": null,
+          "question10": null,
+          "question2": null,
+          "question3": "answer",
+          "question4": null,
+          "question5": null,
+          "question6": null,
+          "question7": null,
+          "question8": null,
+          "question9": null,
+          "symptoms": null,
+          "symptoms_first_date": null,
+          "test_image_resp": null,
+          "test_timer": null,
+          "user_questionnaire_id": null
+        },
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "0000bc60-0679-4e66-b25f-1003090aad2c"
+          }
+        ],
+        "step_name": "Severity of infection",
+        "template_arguments": {
+          "additional_information": "If you’ve tested positive more than once, choose answer for your most difficult COVID-19 infection.",
+          "answers": {
+            "null_option": null,
+            "null_value": null,
+            "options": [
+              {
+                "id": "00007eb5-7120-43c6-b9c2-a5394d9c5575",
+                "key": 0,
+                "subtitle": null,
+                "text": "Nothing more than a cold",
+                "value": 0
+              },
+              {
+                "id": "0000e915-0906-42d8-9a7e-c11ca8a8949d",
+                "key": 1,
+                "subtitle": null,
+                "text": "I was in bed for a few days",
+                "value": 1
+              },
+              {
+                "id": "00003c14-2172-4bb3-9f70-1f55e4668671",
+                "key": 2,
+                "subtitle": null,
+                "text": "One of the most difficult things to get over",
+                "value": 2
+              },
+              {
+                "id": "00008eeb-61a2-42f1-aead-7fa67ed4e067",
+                "key": 3,
+                "subtitle": null,
+                "text": "I had to be hospitalized",
+                "value": 3
+              }
+            ]
+          },
+          "insight": {
+            "source_title": "CDC",
+            "source_url": "https://www.cdc.gov/coronavirus/2019-ncov/long-term-effects/index.html",
+            "text": "Anyone who has been infected with COVID-19 can experience Long COVID, but it is more often found in people who had severe COVID illness, especially those who were hospitalized.",
+            "title": "Severity matters..."
+          },
+          "key": "0000bf6e-7f94-4ce7-801e-4ef848f2ce28",
+          "question": "How severe was your COVID-19 infection?",
+          "subtitle": null,
+          "title": null
+        },
+        "template_name": "question_select_v1"
+      },
+      {
+        "analytics_name": "LCOVID-Quiz-Q4",
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "0000bc60-0679-4e66-b25f-1003090aad2c",
+        "next_button": {
+          "enabled": "selected",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": {
+          "question1": null,
+          "question10": null,
+          "question2": null,
+          "question3": null,
+          "question4": "answers",
+          "question5": null,
+          "question6": null,
+          "question7": null,
+          "question8": null,
+          "question9": null,
+          "symptoms": null,
+          "symptoms_first_date": null,
+          "test_image_resp": null,
+          "test_timer": null,
+          "user_questionnaire_id": null
+        },
+        "step_logic": [
+          {
+            "condition": "answers.key == 8",
+            "step": "00006eda-c353-4008-8533-d32005a34273"
+          },
+          {
+            "condition": "true",
+            "step": "00008ffa-5bf8-4915-8f91-f1f0f6e17393"
+          }
+        ],
+        "step_name": "Current symptoms",
+        "template_arguments": {
+          "additional_information": "Select one or more",
+          "answers": {
+            "null_option": "None of the above",
+            "null_value": {
+              "id": "00001043-2f8a-4516-aee8-73c57fb9a795",
+              "key": 8,
+              "subtitle": "",
+              "text": "None of the above",
+              "value": 0
+            },
+            "options": [
+              {
+                "id": "00003dfb-8b1a-4856-a726-f120aec29743",
+                "key": 0,
+                "subtitle": "Brain fog, headache, dizziness, ligtheadedness",
+                "text": "Neurological",
+                "value": 1
+              },
+              {
+                "id": "0000a192-4d88-4af3-bc58-09a6bdd4a007",
+                "key": 1,
+                "subtitle": "Chest pain, fast beating or pounding heart",
+                "text": "Cardiovascular",
+                "value": 1
+              },
+              {
+                "id": "00005639-6385-47cf-9175-7ec22f5f241d",
+                "key": 2,
+                "subtitle": "Difficulty breathing, cough",
+                "text": "Respiratory",
+                "value": 1
+              },
+              {
+                "id": "000069c5-268e-44ad-b571-d7847ea632cd",
+                "key": 3,
+                "subtitle": "Pins and needles feelings, joint or muscle pain",
+                "text": "Joint pain",
+                "value": 1
+              },
+              {
+                "id": "0000e12c-aca1-4e18-a502-ef4d2342868a",
+                "key": 4,
+                "subtitle": "Depression, anxiety",
+                "text": "Mental",
+                "value": 1
+              },
+              {
+                "id": "0000712e-3979-40ab-a1ff-ed2331a5f93e",
+                "key": 5,
+                "subtitle": "Diarrhea, stomach pain",
+                "text": "Gastrointestinal",
+                "value": 1
+              },
+              {
+                "id": "0000bb6a-dbc1-4721-982b-0885eee78271",
+                "key": 6,
+                "subtitle": "Fatigue, fever, change in smell or taste, sleep problems",
+                "text": "General",
+                "value": 1
+              },
+              {
+                "id": "00000a21-32a8-409e-b1f2-818d7fdd3976",
+                "key": 7,
+                "subtitle": "Hormonal, rash, worsening symptoms due to activity",
+                "text": "Other",
+                "value": 0
+              }
+            ]
+          },
+          "box_type": true,
+          "insight": {
+            "source_title": "CDC",
+            "source_url": "https://www.cdc.gov/coronavirus/2019-ncov/long-term-effects/index.html",
+            "text": "People with Long COVID conditions can have a wide range of symptoms. Symptoms can persist from the initial illness, or begin after recovery. Symptoms may come and go or relapse over time.",
+            "title": "One or too many symptoms..."
+          },
+          "key": "00008c7c-3ce5-452b-955f-eafab1100070",
+          "question": "Are you currently experiencing any symptoms?",
+          "result_screen": null,
+          "subtitle": null,
+          "title": null
+        },
+        "template_name": "question_multiply_select_v1"
+      },
+      {
+        "analytics_name": "LCOVID-Quiz-Q5",
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "00008ffa-5bf8-4915-8f91-f1f0f6e17393",
+        "next_button": {
+          "enabled": "selected",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": {
+          "question1": null,
+          "question10": null,
+          "question2": null,
+          "question3": null,
+          "question4": null,
+          "question5": "answer",
+          "question6": null,
+          "question7": null,
+          "question8": null,
+          "question9": null,
+          "symptoms": null,
+          "symptoms_first_date": null,
+          "test_image_resp": null,
+          "test_timer": null,
+          "user_questionnaire_id": null
+        },
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "00006eda-c353-4008-8533-d32005a34273"
+          }
+        ],
+        "step_name": "Duration of symptoms",
+        "template_arguments": {
+          "additional_information": null,
+          "answers": {
+            "null_option": null,
+            "null_value": null,
+            "options": [
+              {
+                "id": "000050f3-1cb2-493c-8498-85e09707222e",
+                "key": 0,
+                "subtitle": null,
+                "text": "Less than 2 months",
+                "value": 1
+              },
+              {
+                "id": "00001fdb-5411-47e8-bb3d-318dfb725d00",
+                "key": 1,
+                "subtitle": null,
+                "text": "More than 2 months",
+                "value": 0
+              }
+            ]
+          },
+          "insight": {
+            "source_title": "WHO",
+            "source_url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-post-covid-19-condition",
+            "text": "Long COVID symptoms can start with the initial infection or weeks after infection. Symptoms and effects from COVID can last for at least 2 months.",
+            "title": "Symptoms that keep nagging..."
+          },
+          "key": "00004b31-ad65-4123-82d8-ebc48878249c",
+          "question": "How long have you been experiencing symptoms?",
+          "subtitle": null,
+          "title": null
+        },
+        "template_name": "question_select_v1"
+      },
+      {
+        "analytics_name": "LCOVID_Quiz_Q7",
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "00006eda-c353-4008-8533-d32005a34273",
+        "next_button": {
+          "enabled": "selected",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": {
+          "question1": null,
+          "question10": null,
+          "question2": null,
+          "question3": null,
+          "question4": null,
+          "question5": null,
+          "question6": null,
+          "question7": "answer",
+          "question8": null,
+          "question9": null,
+          "symptoms": null,
+          "symptoms_first_date": null,
+          "test_image_resp": null,
+          "test_timer": null,
+          "user_questionnaire_id": null
+        },
+        "step_logic": [
+          {
+            "condition": "qlobal.question4 == null",
+            "step": "0000fb7c-d692-4e5d-8677-67fba145afb2"
+          },
+          {
+            "condition": "global.question4 != null and global.question5.value == 0",
+            "step": "0000fb7c-d692-4e5d-8677-67fba145afb2"
+          }
+        ],
+        "step_name": "Fully vaccinated",
+        "template_arguments": {
+          "additional_information": "Fully vaccinated means you have received all doses in the primary series of the vaccine you received and all boosters recommended for you.",
+          "answers": {
+            "null_option": null,
+            "null_value": null,
+            "options": [
+              {
+                "id": "0000f86c-4196-4120-8ae3-83e3d9b303ca",
+                "key": 0,
+                "subtitle": null,
+                "text": "Yes",
+                "value": 1
+              },
+              {
+                "id": "00004dde-a635-4848-a47a-e3731a067ada",
+                "key": 1,
+                "subtitle": null,
+                "text": "No",
+                "value": 0
+              }
+            ]
+          },
+          "insight": {
+            "source_title": "CDC",
+            "source_url": "https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-care/post-covid-background.html",
+            "text": "Research suggests that people who are vaccinated but experience a breakthrough infection are less likely to report post-COVID conditions, compared to people who are unvaccinated.",
+            "title": "+ 1 for vaccines..."
+          },
+          "key": "0000f65c-7647-4437-971e-d3466e71234e",
+          "question": "Have you been fully vaccinated for COVID-19?",
+          "subtitle": null,
+          "title": null
+        },
+        "template_name": "question_select_v1"
+      },
+      {
+        "analytics_name": "LCOVID-Quiz-Q6",
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "0000fb7c-d692-4e5d-8677-67fba145afb2",
+        "next_button": {
+          "enabled": "selected",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": {
+          "question1": null,
+          "question10": null,
+          "question2": null,
+          "question3": null,
+          "question4": null,
+          "question5": null,
+          "question6": null,
+          "question7": null,
+          "question8": "answer",
+          "question9": null,
+          "symptoms": null,
+          "symptoms_first_date": null,
+          "test_image_resp": null,
+          "test_timer": null,
+          "user_questionnaire_id": null
+        },
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "0000d681-1735-4b4a-a4fd-21eeb5c85cb8"
+          }
+        ],
+        "step_name": "Age",
+        "template_arguments": {
+          "additional_information": null,
+          "answers": {
+            "null_option": null,
+            "null_value": null,
+            "options": [
+              {
+                "id": "000041e7-dd1e-426e-ab2e-c2727cd8f2d9",
+                "key": 0,
+                "subtitle": null,
+                "text": "Under 40 years old",
+                "value": 0
+              },
+              {
+                "id": "00006b18-0238-43d1-9f4b-857eb7c9e78c",
+                "key": 1,
+                "subtitle": null,
+                "text": "40-65 years old",
+                "value": 1
+              },
+              {
+                "id": "00002364-7917-4906-b3e7-44fe15ad43c9",
+                "key": 2,
+                "subtitle": null,
+                "text": "Over 65 years old",
+                "value": 2
+              }
+            ]
+          },
+          "insight": {
+            "source_title": "CDC",
+            "source_url": "https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-care/post-covid-background.html",
+            "text": "Post COVID can impact any age but does appear to occur less in children. Some studies have shown that for each decade the rates increase and many studies show the highest rates in the oldest populations.",
+            "title": "Getting old stinks..."
+          },
+          "key": "00009dd6-63f0-43ac-a181-2d0048f3e079",
+          "question": "What is your age range?",
+          "subtitle": null,
+          "title": null
+        },
+        "template_name": "question_select_v1"
+      },
+      {
+        "analytics_name": "LCOVID-Quiz-Q7",
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "0000d681-1735-4b4a-a4fd-21eeb5c85cb8",
+        "next_button": {
+          "enabled": "selected",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Next"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": {
+          "question1": null,
+          "question10": null,
+          "question2": null,
+          "question3": null,
+          "question4": null,
+          "question5": null,
+          "question6": null,
+          "question7": null,
+          "question8": null,
+          "question9": "answer",
+          "symptoms": null,
+          "symptoms_first_date": null,
+          "test_image_resp": null,
+          "test_timer": null,
+          "user_questionnaire_id": null
+        },
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "00006b67-571d-4280-a485-9393aeeae6b0"
+          }
+        ],
+        "step_name": "Sex",
+        "template_arguments": {
+          "additional_information": null,
+          "answers": {
+            "null_option": null,
+            "null_value": null,
+            "options": [
+              {
+                "id": "000017da-95c4-4382-a905-b08063bed382",
+                "key": 0,
+                "subtitle": null,
+                "text": "Female",
+                "value": 0
+              },
+              {
+                "id": "0000ea3d-ee9a-40e3-aafb-499d968faefd",
+                "key": 1,
+                "subtitle": null,
+                "text": "Male",
+                "value": 1
+              },
+              {
+                "id": "0000e144-db09-4f30-b905-b21010c58e9a",
+                "key": 2,
+                "subtitle": null,
+                "text": "Rather not answered",
+                "value": 2
+              }
+            ]
+          },
+          "insight": {
+            "source_title": "NIH National Library of Medicine",
+            "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8611223/",
+            "text": "New studies suggest that Women were more likely to experience Long COVID than men.",
+            "title": "Still too early to know, but..."
+          },
+          "key": "00002b72-8561-40e1-8721-4da4f160f2ca",
+          "question": "What was your sex at birth?",
+          "subtitle": null,
+          "title": null
+        },
+        "template_name": "question_select_v1"
+      },
+      {
+        "analytics_name": "LCOVID-Quiz-Q9",
+        "auto_next": null,
+        "back_button": {
+          "enabled": "true",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": ""
+            }
+          ],
+          "visibility": "true"
+        },
+        "id": "00006b67-571d-4280-a485-9393aeeae6b0",
+        "next_button": {
+          "enabled": "selected",
+          "text_logic": [
+            {
+              "condition": "true",
+              "text": "Submit"
+            }
+          ],
+          "visibility": "true"
+        },
+        "put_global": {
+          "question1": null,
+          "question10": "answers",
+          "question2": null,
+          "question3": null,
+          "question4": null,
+          "question5": null,
+          "question6": null,
+          "question7": null,
+          "question8": null,
+          "question9": null,
+          "symptoms": null,
+          "symptoms_first_date": null,
+          "test_image_resp": null,
+          "test_timer": null,
+          "user_questionnaire_id": null
+        },
+        "step_logic": [
+          {
+            "condition": "true",
+            "step": "000047c9-ef9e-4a0b-aa8a-efaf8786ad62"
+          }
+        ],
+        "step_name": "Diagnosed conditions",
+        "template_arguments": {
+          "additional_information": null,
+          "answers": {
+            "null_option": "None of the above",
+            "null_value": {
+              "id": "00008b7b-4767-4265-85d2-1a82f7416ca5",
+              "key": 3,
+              "subtitle": "",
+              "text": "None of the above",
+              "value": 3
+            },
+            "options": [
+              {
+                "id": "0000f277-2ece-4ae1-a22f-0a1b22345c4f",
+                "key": 0,
+                "subtitle": null,
+                "text": "Overweight (BMI > 25)",
+                "value": 0
+              },
+              {
+                "id": "0000b6ec-d502-4079-82b9-51ce37d39de7",
+                "key": 1,
+                "subtitle": "Asthma, Heart failure, diabetes, etc.",
+                "text": "Chronic condition",
+                "value": 1
+              },
+              {
+                "id": "00001a09-ad3b-4aaf-8e35-9daf7c0fd752",
+                "key": 2,
+                "subtitle": "Depression, anxiety, PTSD, etc.",
+                "text": "Mental health",
+                "value": 2
+              }
+            ]
+          },
+          "box_type": null,
+          "insight": {
+            "source_title": "International Society for Influenza and other Respiratory Virus Diseases",
+            "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/irv.12980",
+            "text": "Some studies have found higher rates of Long COVID in people who were overweight or had chronic physical or mental health problems before becoming infected. More studies will help to determine if these factors are just a reflection of being less healthy, and thus prone to more severe infections.",
+            "title": "Your current health matters..."
+          },
+          "key": "0000bf3d-3693-49ea-8d65-92a685a749f2",
+          "question": "Have you been diagnosed with any of the following conditions?",
+          "result_screen": null,
+          "subtitle": null,
+          "title": null
+        },
+        "template_name": "question_multiply_select_v1"
+      },
+      {
+        "analytics_name": null,
+        "auto_next": "true",
+        "back_button": null,
+        "id": "000047c9-ef9e-4a0b-aa8a-efaf8786ad62",
+        "next_button": null,
+        "put_global": null,
+        "step_logic": [],
+        "step_name": "Exit test",
+        "template_arguments": {
+          "result_screen": null,
+          "submit_result": null
+        },
+        "template_name": "submit_result_v1"
+      }
+    ],
+    "uuid": "00003fba-61bc-479f-b529-1043b2ac469d"
+  }
+}

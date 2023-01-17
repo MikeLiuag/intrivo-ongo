@@ -1,0 +1,77 @@
+{
+  "cli": {
+    "version": ">= 0.54.1"
+  },
+  "build": {
+    "base": {
+      "distribution": "internal",
+      "env": {
+        "APP_VERSION": "2.41.1",
+        "APP_VERSION_SUFFIX": "false"
+      },
+      "ios": {
+        "buildConfiguration": "Release"
+      }
+    },
+    "dev": {
+      "extends": "base",
+      "distribution": "store",
+      "channel": "placeholder",
+      "env": {
+        "APP_ENV": "dev"
+      },
+      "android": {
+        "gradleCommand": ":app:assembleDevRelease"
+      },
+      "ios": {
+        "scheme": "OnGo Dev"
+      }
+    },
+    "qa": {
+      "extends": "base",
+      "distribution": "store",
+      "channel": "placeholder",
+      "env": {
+        "APP_ENV": "qa"
+      },
+      "android": {
+        "gradleCommand": ":app:assembleQaRelease"
+      },
+      "ios": {
+        "scheme": "OnGo Qa"
+      }
+    },
+    "stage": {
+      "extends": "base",
+      "distribution": "store",
+      "channel": "placeholder",
+      "env": {
+        "APP_ENV": "stage"
+      },
+      "android": {
+        "gradleCommand": ":app:assembleStageRelease"
+      },
+      "ios": {
+        "scheme": "OnGo Stage"
+      }
+    },
+    "prod": {
+      "extends": "base",
+      "distribution": "store",
+      "channel": "placeholder",
+      "env": {
+        "APP_ENV": "prod",
+        "APP_VERSION_SUFFIX": "false"
+      },
+      "android": {
+        "gradleCommand": ":app:bundleProdRelease"
+      },
+      "ios": {
+        "scheme": "OnGo"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

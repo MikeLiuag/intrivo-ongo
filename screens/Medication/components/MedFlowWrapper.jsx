@@ -1,0 +1,159 @@
+import React from 'react';
+import { StyleSheet, Text, View, Alert } from 'react-native';
+import { useTranslation } from 'react-i18next';
+import { useNavigation } from '@react-navigation/native';
+import { useDispatch } from 'react-redux';
+import ScreenWrapper from '../../ScreenWrapper';
+import { clearSelections } from '../../../store/medicationFlow/slice';
+import { colors } from '../../../theme';
+import { BlueButton } from '../../../components/Buttons/BlueButton';
+import { dimensions } from '../styles';
+import { fonts } from '../../../theme/fonts';
+import { resetTimeline } from '../../../utilis/navigationHelper';
+import { LogEvent } from '../../../analytics';
+
+const MedFlowWrapper = ({
+  title,
+  onBack,
+  onExit,
+  subtitle,
+  children,
+  buttonTitle,
+  buttonDisabled,
+  onPressButton,
+  headerTitle,
+  headerSubtitle,
+  backDisabled,
+  progress = 20,
+  analyticName = '',
+}) => {
+  const { t } = useTranslation();
+  const navigation = useNavigation();
+  const dispatch = useDispatch();
+
+  const onInternalExit = () => {
+    Alert.alert(t('exitAlert.Title'), t('exitAlert.Text'), [
+      {
+        text: t('yesNo.Yes'),
+        onPress: () => {
+          if (analyticName) {
+            LogEvent(`Sniffles_Async_${analyticName}_click_Close`);
+          }
+          dispatch(clearSelections());
+          resetTimeline(navigation);
+        },
+      },
+      {
+        text: t('yesNo.No'),
+        style: 'cancel',
+      },
+    ]);
+  };
+
+  const handleRightClick = () => {
+    if (onExit) {
+      onExit?.();
+    } else {
+      onInternalExit();
+    }
+  };
+
+  const goBack = () => {
+    if (onBack) {
+      onBack?.();
+    } else {
+      navigation.goBack();
+    }
+  };
+
+  const renderButton = () =>
+    buttonTitle &&
+    onPressButton && (
+      <BlueButton
+        title={t(buttonTitle)}
+        action={onPressButton}
+        style={styles.buttonContainer}
+        disabled={buttonDisabled}
+        styleText={styles.buttonPrimaryTitle}
+      />
+    );
+
+  const renderTitle = () =>
+    title &&
+    subtitle && (
+      <View style={styles.titleContainer}>
+        <Text style={styles.title}>{t(title)}</Text>
+        <Text style={styles.subtitle}>{t(subtitle)}</Text>
+      </View>
+    );
+
+  return (
+    <ScreenWrapper
+      title={t(headerTitle || 'paxlovid.eligibility.title')}
+      subtitle={t(headerSubtitle)}
+      onBack={!backDisabled && goBack}
+      onExit={handleRightClick}
+      progress={`${progress}%`}
+    >
+      {renderTitle()}
+      <View style={styles.body}>
+        {children}
+        {renderButton()}
+      </View>
+    </ScreenWrapper>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: colors.primaryGhost,
+  },
+  header: {
+    paddingHorizontal: 24,
+  },
+  headerTitle: {
+    fontSize: fonts.sizeLarge,
+    fontFamily: fonts.familyBold,
+    color: colors.greyDark2,
+  },
+  title: {
+    fontSize: 24,
+    fontFamily: fonts.familyBold,
+    color: colors.black,
+  },
+  subtitle: {
+    fontSize: fonts.sizeLarge,
+    fontFamily: fonts.familyLight,
+    color: colors.greyGrey,
+    lineHeight: 22,
+    marginTop: 11,
+  },
+  headerSubtitle: {
+    fontSize: fonts.sizeNormal,
+    fontFamily: fonts.familyLight,
+    color: colors.greyGrey,
+    alignSelf: 'center',
+    lineHeight: 17,
+    marginBottom: 8,
+  },
+  body: {
+    flex: 1,
+    justifyContent: 'space-between',
+  },
+  titleContainer: {
+    marginTop: dimensions.pageMarginVertical,
+    marginHorizontal: 25,
+  },
+  buttonContainer: {
+    marginVertical: 24,
+    marginHorizontal: dimensions.pageMarginHorizontal,
+  },
+  buttonPrimaryTitle: {
+    fontSize: fonts.sizeLarge,
+    fontFamily: fonts.familyBold,
+    color: colors.greyWhite,
+  },
+});
+
+export default MedFlowWrapper;

@@ -1,0 +1,154 @@
+{
+  "project_info": {
+    "project_number": "198255891103",
+    "project_id": "intrivo-b0c2e",
+    "storage_bucket": "intrivo-b0c2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198255891103:android:778483ea6cc0c170eb48aa",
+        "android_client_info": {
+          "package_name": "com.intrivo.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198255891103-pbfa0f8js1ee2aqok9bf3ig5d62e5v39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGO8yVuRXvVfa8fxfiDhGJn6WQlO2C6Jc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198255891103-pbfa0f8js1ee2aqok9bf3ig5d62e5v39.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "198255891103-a1u8ma2b47cbd7s22c36rrlj4uo480p7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.intrivo.stage"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198255891103:android:f977f4b7d3a24fc2eb48aa",
+        "android_client_info": {
+          "package_name": "com.intrivo.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198255891103-pbfa0f8js1ee2aqok9bf3ig5d62e5v39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGO8yVuRXvVfa8fxfiDhGJn6WQlO2C6Jc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198255891103-pbfa0f8js1ee2aqok9bf3ig5d62e5v39.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "198255891103-a1u8ma2b47cbd7s22c36rrlj4uo480p7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.intrivo.stage"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198255891103:android:600ad50caa25a5c1eb48aa",
+        "android_client_info": {
+          "package_name": "com.intrivo.stage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198255891103-pbfa0f8js1ee2aqok9bf3ig5d62e5v39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGO8yVuRXvVfa8fxfiDhGJn6WQlO2C6Jc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198255891103-pbfa0f8js1ee2aqok9bf3ig5d62e5v39.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "198255891103-a1u8ma2b47cbd7s22c36rrlj4uo480p7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.intrivo.stage"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198255891103:android:93d21941c6080827eb48aa",
+        "android_client_info": {
+          "package_name": "com.ongo.live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198255891103-pbfa0f8js1ee2aqok9bf3ig5d62e5v39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGO8yVuRXvVfa8fxfiDhGJn6WQlO2C6Jc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198255891103-pbfa0f8js1ee2aqok9bf3ig5d62e5v39.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "198255891103-a1u8ma2b47cbd7s22c36rrlj4uo480p7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.intrivo.stage"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

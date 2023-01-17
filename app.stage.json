@@ -1,0 +1,90 @@
+{
+  "name": "On/Go",
+  "slug": "TheIntrivoAppStage",
+  "owner": "intrivodev",
+  "scheme": "ongo-stage",
+  "orientation": "portrait",
+  "icon": "./assets/icon.png",
+  "splash": {
+    "image": "./assets/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#EEC562"
+  },
+  "updates": {
+    "fallbackToCacheTimeout": 0,
+    "checkAutomatically": "ON_ERROR_RECOVERY",
+    "url": "https://u.expo.dev/587a45f2-cc8c-4ca7-a3e5-ed326d39c7f0",
+    "enabled": true
+  },
+  "assetBundlePatterns": ["**/*"],
+  "extra": {
+    "eas": {
+      "projectId": "587a45f2-cc8c-4ca7-a3e5-ed326d39c7f0"
+    }
+  },
+  "ios": {
+    "supportsTablet": true,
+    "bundleIdentifier": "com.intrivo.stage",
+    "infoPlist": {
+      "NSCameraUsageDescription": "This app uses the camera to take photos of the test cassete, capture documents, and participate in live sessions.",
+      "NSLocationWhenInUseUsageDescription": "This app uses location to automatically populate user's zip code.",
+      "NSFaceIDUsageDescription": "This app uses FaceID to provide a quick login feature.",
+      "NSMicrophoneUsageDescription": "This app leverages your microphone to allow you to speak with a with a medical expert.",
+      "UIBackgroundModes": []
+    },
+    "config": {
+      "usesNonExemptEncryption": false
+    },
+    "appStoreUrl": "https://apps.apple.com/in/app/on-go/id1565398009"
+  },
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/adaptive-icon.png",
+      "backgroundColor": "#FFFFFF"
+    },
+    "googleServicesFile": "./google-services.json",
+    "permissions": [
+      "CAMERA",
+      "READ_INTERNAL_STORAGE",
+      "VIBRATE",
+      "LOCATION",
+      "ACCESS_NETWORK_STATE",
+      "ACCESS_COARSE_LOCATION",
+      "ACCESS_FINE_LOCATION",
+      "FOREGROUND_SERVICE"
+    ],
+    "package": "com.intrivo.stage",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.ongo.live"
+  },
+  "web": {
+    "favicon": "./assets/favicon.png",
+    "config": {
+      "firebase": {
+        "apiKey": "AIzaSyACZpCdKBXDyEYxcZu_y1h-OgHTOybmVFo",
+        "authDomain": "intrivo-b0c2e.firebaseapp.com",
+        "projectId": "intrivo-b0c2e",
+        "storageBucket": "intrivo-b0c2e.appspot.com",
+        "messagingSenderId": "198255891103",
+        "appId": "1:198255891103:web:dc773ee82df8db01eb48aa",
+        "measurementId": "G-KBBF89SEDH"
+      }
+    }
+  },
+  "packagerOpts": {
+    "config": "metro.config.js",
+    "sourceExts": [
+      "expo.ts",
+      "expo.tsx",
+      "expo.js",
+      "expo.jsx",
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "wasm",
+      "svg"
+    ]
+  },
+  "plugins": ["@react-native-firebase/app", "@react-native-firebase/crashlytics"]
+}

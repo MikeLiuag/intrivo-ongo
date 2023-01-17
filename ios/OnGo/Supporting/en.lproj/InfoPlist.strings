@@ -1,0 +1,4 @@
+NSCameraUsageDescription = "This app uses the camera to take photos of the test cassete, capture documents, and participate in live sessions.";
+NSLocationWhenInUseUsageDescription = "This app uses location to automatically populate user's zip code.";
+NSFaceIDUsageDescription = "This app uses FaceID to provide a quick login feature.";
+NSMicrophoneUsageDescription = "This app leverages your microphone to allow you to speak with a with a medical expert.";

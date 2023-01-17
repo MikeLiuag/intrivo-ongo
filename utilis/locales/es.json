@@ -1,0 +1,6 @@
+{
+  "NSCameraUsageDescription": "Esta aplicación utiliza la cámara para tomar fotos del casete de prueba. Esta foto luego se guarda y se analiza para asegurar que la prueba es valida.",
+  "NSLocationWhenInUseUsageDescription": "This app uses location to automatically populate user's zip code.",
+  "NSFaceIDUsageDescription": "This app uses FaceID to provide a quick login feature.",
+  "NSMicrophoneUsageDescription": "This app leverages your microphone to allow you to speak with a with a medical expert."
+}

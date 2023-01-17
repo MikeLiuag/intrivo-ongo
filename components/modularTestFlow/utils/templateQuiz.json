@@ -1,0 +1,275 @@
+{
+  "data": {
+    "steps": [
+      {
+        "auto_next": null,
+        "full_screen": false,
+        "back_button": {
+          "enabled": true,
+          "text_logic": [{ "condition": true, "text": "" }],
+          "visibility": true
+        },
+        "id": "0000db21-492c-4dc7-9d34-06bf4c0c31c8",
+        "next_button": {
+          "enabled": "selected",
+          "text_logic": [{ "condition": true, "text": "Next" }],
+          "visibility": true
+        },
+        "put_global": null,
+        "step_logic": [
+          { "condition": true, "step": "00007361-25e0-4004-886d-fe469fc7a00b" }
+        ],
+        "step_name": "Diabet",
+        "analytic_name": "VitDQuizQ1",
+        "template_arguments": {
+          "answers": {
+            "null_option": null,
+            "null_value": null,
+            "options": [
+              { "key": 0, "text": "Yes", "value": 2 },
+              { "key": 1, "text": "No", "value": 0 }
+            ]
+          },
+          "key": "diabet",
+          "subtitle": "Question 1/6",
+          "title": null,
+          "question": "Are you diabetic?"
+        },
+        "template_name": "question_select_v1"
+      },
+      {
+        "auto_next": null,
+        "full_screen": false,
+        "back_button": {
+          "enabled": true,
+          "text_logic": [{ "condition": true, "text": "" }],
+          "visibility": true
+        },
+
+        "id": "00007361-25e0-4004-886d-fe469fc7a00b",
+        "next_button": {
+          "enabled": "selected",
+          "text_logic": [{ "condition": true, "text": "Next" }],
+          "visibility": true
+        },
+        "put_global": null,
+        "step_logic": [
+          { "condition": true, "step": "0000a0da-f319-4902-9506-6e798d1830ff" }
+        ],
+
+        "step_name": "Obese",
+        "analytic_name": "VitDQuizQ2",
+        "template_arguments": {
+          "answers": {
+            "null_option": null,
+            "null_value": null,
+            "options": [
+              { "key": 0, "text": "Yes", "value": 2 },
+              { "key": 1, "text": "No", "value": 0 }
+            ]
+          },
+          "key": "obese",
+          "subtitle": "Question 2/6",
+          "title": null,
+          "question": "Have you been diagnosed as obese (BMI of 30 or greater)?"
+        },
+
+        "template_name": "question_select_v1"
+      },
+      {
+        "auto_next": null,
+        "full_screen": false,
+        "back_button": {
+          "enabled": true,
+          "text_logic": [{ "condition": true, "text": "" }],
+          "visibility": true
+        },
+        "id": "0000a0da-f319-4902-9506-6e798d1830ff",
+        "next_button": {
+          "enabled": "selected",
+          "text_logic": [{ "condition": true, "text": "Next" }],
+          "visibility": true
+        },
+        "put_global": null,
+        "step_logic": [
+          { "condition": true, "step": "0000051c-91e0-4cb2-a063-6dafbea31ed2" }
+        ],
+        "step_name": "Identify",
+        "analytic_name": "VitDQuizQ3",
+        "template_arguments": {
+          "answers": {
+            "null_option": null,
+            "null_value": null,
+            "options": [
+              { "key": 0, "text": "White", "value": 0 },
+              { "key": 1, "text": "Mexican-American", "value": 2 },
+              { "key": 2, "text": "African American", "value": 2 },
+              { "key": 3, "text": "Asian", "value": 0 },
+              { "key": 4, "text": "None of the above", "value": 0 }
+            ]
+          },
+          "key": "identify",
+          "subtitle": "Question 3/6",
+          "title": null,
+          "question": "How do you best identify yourself"
+        },
+        "template_name": "question_select_v1"
+      },
+      {
+        "auto_next": null,
+        "full_screen": false,
+        "back_button": {
+          "enabled": true,
+          "text_logic": [{ "condition": true, "text": "" }],
+          "visibility": true
+        },
+        "id": "0000051c-91e0-4cb2-a063-6dafbea31ed2",
+        "next_button": {
+          "enabled": "selected",
+          "text_logic": [{ "condition": true, "text": "Next" }],
+          "visibility": true
+        },
+        "put_global": null,
+        "step_logic": [
+          { "condition": true, "step": "0000a482-3809-449e-9260-17e34e2203a4" }
+        ],
+        "step_name": "Diagnose",
+        "analytic_name": "VitDQuizQ4",
+        "template_arguments": {
+          "answers": {
+            "null_option": "None of the above",
+            "null_value": null,
+            "options": [
+              { "key": 0, "text": "Crohn's disease", "value": 2 },
+              { "key": 1, "text": "Ulcerative colitis", "value": 2 },
+              { "key": 2, "text": "Celiac sprue", "value": 2 }
+            ]
+          },
+          "key": "diagnose",
+          "subtitle": "Question 4/6",
+          "title": null,
+          "question": "Have you been diagnosed with any of the following conditions?"
+        },
+        "template_name": "question_select_v1"
+      },
+      {
+        "auto_next": null,
+        "full_screen": false,
+        "back_button": {
+          "enabled": true,
+          "text_logic": [{ "condition": true, "text": "" }],
+          "visibility": true
+        },
+        "id": "0000a482-3809-449e-9260-17e34e2203a4",
+        "next_button": {
+          "enabled": "selected",
+          "text_logic": [{ "condition": true, "text": "Next" }],
+          "visibility": true
+        },
+        "put_global": null,
+        "step_logic": [
+          { "condition": true, "step": "0000b682-94dd-43ca-8eba-ac8628ff73d2" }
+        ],
+        "step_name": "Smoke",
+        "analytic_name": "VitDQuizQ5",
+        "template_arguments": {
+          "answers": {
+            "null_option": null,
+            "null_value": null,
+            "options": [
+              { "key": 0, "text": "Yes", "value": 2 },
+              { "key": 1, "text": "No", "value": 0 }
+            ]
+          },
+          "key": "smoke",
+          "subtitle": "Question 5/6",
+          "title": null,
+          "question": "Do you currently smoke tobacco?"
+        },
+        "template_name": "question_select_v1"
+      },
+      {
+        "auto_next": null,
+        "full_screen": false,
+        "back_button": {
+          "enabled": true,
+          "text_logic": [{ "condition": true, "text": "" }],
+          "visibility": true
+        },
+        "id": "0000b682-94dd-43ca-8eba-ac8628ff73d2",
+        "next_button": {
+          "enabled": "selected",
+          "text_logic": [{ "condition": true, "text": "Next" }],
+          "visibility": true
+        },
+        "put_global": null,
+        "step_logic": [
+          { "condition": true, "step": "ffc95fd0-cd9f-41c8-8dd1-832983ea88c0" }
+        ],
+        "step_name": "LifeStyle",
+        "analytic_name": "VitDQuizQ6",
+        "template_arguments": {
+          "answers": {
+            "null_option": "None of the above",
+            "null_value": null,
+            "options": [
+              { "key": 0, "text": "Take a multivitamin", "value": -1 },
+              {
+                "key": 1,
+                "text": "Take a Vitamin D supplement",
+                "value": -2.5
+              },
+              {
+                "key": 2,
+                "text": "Spend at least 15 minutes in the sun",
+                "value": -0.5
+              },
+              {
+                "key": 3,
+                "text": "Eat a balance diet (includes eggs, fish, orange juice...)",
+                "value": -0.5
+              },
+              {
+                "key": 4,
+                "text": "Drink at least one glass of milk",
+                "value": -0.5
+              }
+            ]
+          },
+          "key": "lifeStyle",
+          "subtitle": "Question 6/6",
+          "title": null,
+          "question": "Which of the following are part of your daily routine?"
+        },
+        "template_name": "question_multiply_select_v1"
+      },
+      {
+        "auto_next": null,
+        "full_screen": true,
+        "back_button": {
+          "enabled": false,
+          "visibility": false
+        },
+        "id": "ffc95fd0-cd9f-41c8-8dd1-832983ea88c0",
+        "next_button": {
+          "enabled": false,
+          "visibility": false
+        },
+        "put_global": null,
+        "step_logic": [],
+        "step_name": "Submit Results",
+        "analytic_name": "VitDQuizResults",
+        "template_arguments": {
+          "submit_result": {
+            "format_type": "quiz_result",
+            "retry": 3,
+            "url": "/analytics/events"
+          },
+          "title": "Thank you for taking the quiz!"
+        },
+        "template_name": "quiz_result_v1"
+      }
+    ],
+    "uuid": "0000bb0c-a2b2-47a8-a1b3-228830657c86"
+  }
+}

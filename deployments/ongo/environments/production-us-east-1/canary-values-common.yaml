@@ -1,0 +1,17 @@
+image:
+  tag: production-latest
+
+testConnection: false
+
+replicaCount: 1
+
+host: ongo-canary.intrivo.com
+
+envCommon:
+- name: NODE_ENV
+  value: production
+
+autoscaling:
+  enabled: true
+  minReplicas: 1
+  maxReplicas: 20

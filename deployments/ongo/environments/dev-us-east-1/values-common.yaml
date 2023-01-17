@@ -1,0 +1,15 @@
+image:
+  tag: dev-latest
+
+testConnection: false
+
+host: ongo-dev.intrivo.com
+
+envCommon:
+- name: NODE_ENV
+  value: dev
+
+autoscaling:
+  enabled: true
+  minReplicas: 1
+  maxReplicas: 20

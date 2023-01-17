@@ -1,0 +1,15 @@
+image:
+  tag: qa-latest
+
+testConnection: false
+
+host: ongo-qa.intrivo.com
+
+envCommon:
+- name: NODE_ENV
+  value: qa
+
+autoscaling:
+  enabled: true
+  minReplicas: 1
+  maxReplicas: 20

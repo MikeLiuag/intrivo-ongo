@@ -1,0 +1,5 @@
+export const STRIPE_KEY_DEV =
+  'pk_test_51JQBZRBl0Oj74CvUodM5AuxSQniE0am8oio4IF5FMRz6Hkfzl0O62LUBzE5nR6hiFT6okJHoMkX1dFEuoJ9DJf8j00sCdosC9n';
+export const STRIPE_KEY_LIVE =
+  'pk_live_51JQBZRBl0Oj74CvU3wuUqZscMAlqXSPdiwjdQ8dTDmz59e9Y71WXd6MXAdrR4J0EKHLvIohZTzYw4AV2MhddtarF00XaxhUotp';
+export const MERCHANT_ID = 'merchant.com.intrivo.dev';
